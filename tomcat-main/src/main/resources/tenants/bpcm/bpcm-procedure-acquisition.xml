@@ -1,0 +1,14 @@
+<record id="acquisition" is-extension="true" type="record,procedure">
+    <services-record-path id="bpcm">acquisitions_bpcm:http://collectionspace.org/services/acquisition/local/bpcm,acquisitions_bpcm</services-record-path>
+
+    <section id="acquisitionInformation">
+
+        <field id="acquisitionMethod" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-acquisitionmethod" ui-type="enum">
+            <selector>acquisition-acquisition-method</selector>
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
+        </field>
+    </section>
+
+</record>

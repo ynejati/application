@@ -1,0 +1,741 @@
+<instances>
+    <!--Collection Object Number Type-->
+    <instance id="vocab-collectionobjectnumbertype">
+        <web-url>collectionobjectnumbertype</web-url>
+        <title-ref>collectionobjectnumbertype</title-ref>
+        <title>Cataloging Number Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="lender">Lender</option>
+            <option id="obsolete">Obsolete</option>
+            <option id="previous">Previous</option>
+            <option id="serial">Serial</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
+
+    <!--Responsible Departments-->
+    <instance id="vocab-responsibledepartments">
+        <web-url>responsibledepartments</web-url>
+        <title-ref>responsibledepartments</title-ref>
+        <title>Responsible Departments</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="antiquities">Antiquities</option>
+            <option id="architecture-design">Architecture and Design</option>
+            <option id="decorative-arts">Decorative Arts</option>
+            <option id="ethnography">Ethnography</option>
+            <option id="herpetology">Herpetology</option>
+            <option id="media-performance-art">Media and Performance Art</option>
+            <option id="paintings-sculpture">Paintings and Sculpture</option>
+            <option id="paleobotany">Paleobotany</option>
+            <option id="photographs">Photographs</option>
+            <option id="prints-drawings">Prints and Drawings</option>
+        </options>
+    </instance>
+
+    <!--Collection-->
+    <instance id="vocab-collection">
+        <web-url>collection</web-url>
+        <title-ref>collection</title-ref>
+        <title>Collection</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="library-collection">Library collection</option>
+            <option id="permanent-collection">Permanent collection</option>
+            <option id="study-collection">Study collection</option>
+            <option id="teaching-collection">Teaching collection</option>
+        </options>
+    </instance>
+
+    <!--Record Status-->
+    <instance id="vocab-recordstatus">
+        <web-url>recordstatus</web-url>
+        <title-ref>recordstatus</title-ref>
+        <title>Record Status</title>
+        <options>
+            <option id="approved">Approved</option>
+            <option id="in-process">In process</option>
+            <option id="new" default="yes">New</option>
+            <option id="temporary">Temporary</option>
+        </options>
+    </instance>
+
+    <!--Title Type-->
+    <instance id="vocab-titletype">
+        <web-url>titletype</web-url>
+        <title-ref>titletype</title-ref>
+        <title>Title Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="assigned-by-artist">Assigned by Artist</option>
+            <option id="collection">Collection</option>
+            <option id="generic">Generic</option>
+            <option id="popular">Popular</option>
+            <option id="series">Series</option>
+            <option id="trade">Trade</option>
+        </options>
+    </instance>
+
+    <!--Object Name Currency-->
+    <instance id="vocab-objectnamecurrency">
+        <web-url>objectnamecurrency</web-url>
+        <title-ref>objectnamecurrency</title-ref>
+        <title>Object Name Currency</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="current">Current</option>
+            <option id="archaic">Archaic</option>
+        </options>
+    </instance>
+
+    <!--Object Name Level-->
+    <instance id="vocab-objectnamelevel">
+        <web-url>objectnamelevel</web-url>
+        <title-ref>objectnamelevel</title-ref>
+        <title>Object Name Level</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="group">Group</option>
+            <option id="subgroup">Subgroup</option>
+        </options>
+    </instance>
+
+    <!--Object Name System-->
+    <instance id="vocab-objectnamesystem">
+        <web-url>objectnamesystem</web-url>
+        <title-ref>objectnamesystem</title-ref>
+        <title>Object Name System</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="art-and-architecture-thesaurus">Art &amp; Architecture Thesaurus</option>
+            <option id="nomenclature">Nomenclature</option>
+        </options>
+    </instance>
+
+    <!--Object Name Type-->
+    <instance id="vocab-objectnametype">
+        <web-url>objectnametype</web-url>
+        <title-ref>objectnametype</title-ref>
+        <title>Object Name Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="classified">Classified</option>
+            <option id="denomination">Denomination</option>
+            <option id="simple">Simple</option>
+            <option id="taxonomic">Taxonomic</option>
+            <option id="typological">Typological</option>
+        </options>
+    </instance>
+
+    <!--Object Status-->
+    <instance id="vocab-objectstatus">
+        <web-url>objectstatus</web-url>
+        <title-ref>objectstatus</title-ref>
+        <title>Object Status</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="copy">copy</option>
+            <option id="forgery">forgery</option>
+            <option id="holotype">holotype</option>
+            <option id="paralectotype">paralectotype</option>
+            <option id="paratype">paratype</option>
+            <option id="type">type</option>
+        </options>
+    </instance>
+
+    <!--Sex-->
+    <instance id="vocab-sex">
+        <web-url>sex</web-url>
+        <title-ref>sex</title-ref>
+        <title>Sex</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="male">male</option>
+            <option id="female">female</option>
+        </options>
+    </instance>
+
+    <!--Phase-->
+    <instance id="vocab-phase">
+        <web-url>phase</web-url>
+        <title-ref>phase</title-ref>
+        <title>Phase</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="adult">adult</option>
+            <option id="imago">imago</option>
+            <option id="larva">larva</option>
+            <option id="nymph">nymph</option>
+            <option id="pupa">pupa</option>
+        </options>
+    </instance>
+
+    <!--Form-->
+    <instance id="vocab-form">
+        <web-url>form</web-url>
+        <title-ref>form</title-ref>
+        <title>Form</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="dry">dry</option>
+            <option id="pinned">pinned</option>
+            <option id="thin-section">thin section</option>
+            <option id="wet">wet</option>
+        </options>
+    </instance>
+
+    <!--Age Unit-->
+    <instance id="vocab-ageunit">
+        <web-url>ageunit</web-url>
+        <title-ref>ageunit</title-ref>
+        <title>Age Unit</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="days">Days</option>
+            <option id="months">Months</option>
+            <option id="weeks">Weeks</option>
+            <option id="years">Years</option>
+        </options>
+    </instance>
+
+    <!--Object Component Name-->
+    <instance id="vocab-objectcomponentname">
+        <web-url>objectcomponentname</web-url>
+        <title-ref>objectcomponentname</title-ref>
+        <title>Object Component Name</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="blade">blade</option>
+            <option id="buttonhole">buttonhole</option>
+            <option id="handle">handle</option>
+            <option id="sleeve">sleeve</option>
+        </options>
+    </instance>
+
+    <!--Technical Attribute-->
+    <instance id="vocab-technicalattribute">
+        <web-url>technicalattribute</web-url>
+        <title-ref>technicalattribute</title-ref>
+        <title>Technical Attribute</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="magnetic-tape-type">magnetic tape type</option>
+            <option id="record-speed">record speed</option>
+        </options>
+    </instance>
+
+    <!--Technical Measurement-->
+    <instance id="vocab-technicalattributemeasurement">
+        <web-url>technicalattributemeasurement</web-url>
+        <title-ref>technicalattributemeasurement</title-ref>
+        <title>Technical Attribute Measurement</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="metal">metal</option>
+            <option id="78">78</option>
+        </options>
+    </instance>
+
+    <!--Technical Measure Unit-->
+    <instance id="vocab-technicalattributemeasurementunit">
+        <web-url>technicalattributemeasurementunit</web-url>
+        <title-ref>technicalattributemeasurementunit</title-ref>
+        <title>Technical Attribute Measurement Unit</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="rpm">rpm</option>
+        </options>
+    </instance>
+
+    <!--Content Positions-->
+    <instance id="vocab-contentpositions">
+        <web-url>contentpositions</web-url>
+        <title-ref>contentpositions</title-ref>
+        <title>Content Positions</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="back">back</option>
+            <option id="base">base</option>
+            <option id="bottom">bottom</option>
+            <option id="front">front</option>
+            <option id="inside">inside</option>
+            <option id="left">left</option>
+            <option id="outside">outside</option>
+            <option id="recto">recto</option>
+            <option id="right">right</option>
+            <option id="rim">rim</option>
+            <option id="top">top</option>
+            <option id="verso">verso</option>
+        </options>
+    </instance>
+
+    <!--Content Object Type-->
+    <instance id="vocab-contentobjecttype">
+        <web-url>contentobjecttype</web-url>
+        <title-ref>contentobjecttype</title-ref>
+        <title>Content Object Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="furniture">Furniture</option>
+            <option id="food">Food</option>
+        </options>
+    </instance>
+
+    <!--Content Script-->
+    <instance id="vocab-contentscript">
+        <web-url>contentscript</web-url>
+        <title-ref>contentscript</title-ref>
+        <title>Content Scripts</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="carolingian-miniscule">Carolingian miniscule</option>
+            <option id="gothic-script">Gothic script</option>
+            <option id="palmer-method">Palmer method</option>
+            <option id="roman-cursive">Roman cursive</option>
+            <option id="rustic-capitals">rustic capitals</option>
+            <option id="spencerian-method">Spencerian method</option>
+            <option id="square-capitals">square capitals</option>
+        </options>
+    </instance>
+
+    <!--Inscription Content Position-->
+    <instance id="vocab-inscriptioncontentposition">
+        <web-url>inscriptioncontentposition</web-url>
+        <title-ref>inscriptioncontentposition</title-ref>
+        <title>Inscription Content Position</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="back">back</option>
+            <option id="base">base</option>
+            <option id="bottom">bottom</option>
+            <option id="front">front</option>
+            <option id="inside">inside</option>
+            <option id="left">left</option>
+            <option id="outside">outside</option>
+            <option id="recto">recto</option>
+            <option id="right">right</option>
+            <option id="rim">rim</option>
+            <option id="top">top</option>
+            <option id="verso">verso</option>
+        </options>
+    </instance>
+
+    <!--Inscription Content Script-->
+    <instance id="vocab-inscriptioncontentscript">
+        <web-url>inscriptioncontentscript</web-url>
+        <title-ref>inscriptioncontentscript</title-ref>
+        <title>Inscription Content Script</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="carolingian-miniscule">Carolingian miniscule</option>
+            <option id="gothic-script">Gothic script</option>
+            <option id="palmer-method">Palmer method</option>
+            <option id="roman-cursive">Roman cursive</option>
+            <option id="rustic-capitals">rustic capitals</option>
+            <option id="spencerian-method">Spencerian method</option>
+            <option id="square-capitals">square capitals</option>
+        </options>
+    </instance>
+
+    <!--Inscription Content Type-->
+    <instance id="vocab-inscriptioncontenttype">
+        <web-url>inscriptioncontenttype</web-url>
+        <title-ref>inscriptioncontenttype</title-ref>
+        <title>Inscription Content Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="brand">brand</option>
+            <option id="decoration">decoration</option>
+            <option id="estate-stamp">estate stamp</option>
+            <option id="graffiti">graffiti</option>
+            <option id="label">label</option>
+            <option id="maker's-mark">maker's mark</option>
+        </options>
+    </instance>
+
+    <!--Inscription Description Position-->
+    <instance id="vocab-inscriptiondescriptionposition">
+        <web-url>inscriptiondescriptionposition</web-url>
+        <title-ref>inscriptiondescriptionposition</title-ref>
+        <title>Inscription Description Position</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="back">back</option>
+            <option id="base">base</option>
+            <option id="bottom">bottom</option>
+            <option id="front">front</option>
+            <option id="inside">inside</option>
+            <option id="left">left</option>
+            <option id="outside">outside</option>
+            <option id="recto">recto</option>
+            <option id="right">right</option>
+            <option id="rim">rim</option>
+            <option id="top">top</option>
+            <option id="verso">verso</option>
+        </options>
+    </instance>
+
+    <!--Inscription Description Type-->
+    <instance id="vocab-inscriptiondescriptiontype">
+        <web-url>inscriptiondescriptiontype</web-url>
+        <title-ref>inscriptiondescriptiontype</title-ref>
+        <title>Inscription Description Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="brand">brand</option>
+            <option id="decoration">decoration</option>
+            <option id="estate-stamp">estate stamp</option>
+            <option id="graffiti">graffiti</option>
+            <option id="label">label</option>
+            <option id="maker's-mark">maker's mark</option>
+        </options>
+    </instance>
+
+    <!--Ownership Access-->
+    <instance id="vocab-ownershipaccess">
+        <web-url>ownershipaccess</web-url>
+        <title-ref>ownershipaccess</title-ref>
+        <title>Ownership Access</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="limited">limited</option>
+            <option id="open">open</option>
+            <option id="restricted">restricted</option>
+        </options>
+    </instance>
+
+    <!--Ownership Category-->
+    <instance id="vocab-ownershipcategory">
+        <web-url>ownershipcategory</web-url>
+        <title-ref>ownershipcategory</title-ref>
+        <title>Ownership Category</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="company">company</option>
+            <option id="public">public</option>
+            <option id="private">private</option>
+        </options>
+    </instance>
+
+    <!--Ownership Exchange Method-->
+    <instance id="vocab-ownershipexchangemethod">
+        <web-url>ownershipexchangemethod</web-url>
+        <title-ref>ownershipexchangemethod</title-ref>
+        <title>Ownership Exchange Method</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="bequest">bequest</option>
+            <option id="exchange">exchange</option>
+            <option id="gift">gift</option>
+            <option id="purchase">purchase</option>
+            <option id="transfer">transfer</option>
+            <option id="treasure">treasure</option>
+        </options>
+    </instance>
+
+    <!--Acquisition Method-->
+    <instance id="vocab-acquisitionmethod">
+        <web-url>acquisitionmethod</web-url>
+        <title-ref>acquisitionmethod</title-ref>
+        <title>Acquisition Method</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="bequest">bequest</option>
+            <option id="exchange">exchange</option>
+            <option id="gift">gift</option>
+            <option id="purchase">purchase</option>
+            <option id="transfer">transfer</option>
+            <option id="treasure">treasure</option>
+        </options>
+    </instance>
+
+    <!--Object Audit Category-->
+    <instance id="vocab-objectauditcategory">
+        <web-url>objectauditcategory</web-url>
+        <title-ref>objectauditcategory</title-ref>
+        <title>Object Audit Category</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="low">Low</option>
+            <option id="medium">Medium</option>
+            <option id="high">High</option>
+        </options>
+    </instance>
+
+    <!--Completeness-->
+    <instance id="vocab-completeness">
+        <web-url>completeness</web-url>
+        <title-ref>completeness</title-ref>
+        <title>Completeness</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="complete">Complete</option>
+            <option id="fragmented">Fragmented</option>
+            <option id="incomplete">Incomplete</option>
+        </options>
+    </instance>
+
+    <!--Condition-->
+    <instance id="vocab-condition">
+        <web-url>condition</web-url>
+        <title-ref>condition</title-ref>
+        <title>Condition</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="needsnowork">Needs no work</option>
+            <option id="exhibitableneedswork">Exhibitable / needs work</option>
+            <option id="notexhibitablestable">Not exhibitable / stable</option>
+            <option id="injeopardy">In jeopardy</option>
+        </options>
+    </instance>
+
+    <!--Treatment Priority-->
+    <instance id="vocab-conservationtreatmentpriority">
+        <web-url>conservationtreatmentpriority</web-url>
+        <title-ref>conservationtreatmentpriority</title-ref>
+        <title>Conservation Treatment Priority</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="low">Low</option>
+            <option id="medium">Medium</option>
+            <option id="high">High</option>
+        </options>
+    </instance>
+
+    <!--Hazard-->
+    <instance id="vocab-hazard">
+        <web-url>hazard</web-url>
+        <title-ref>hazard</title-ref>
+        <title>Hazard</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="poisonous">Poisonous</option>
+            <option id="radioactive">Radioactive</option>
+        </options>
+    </instance>
+
+    <!--Condition Check Method-->
+    <instance id="vocab-conditioncheckmethod">
+        <web-url>conditioncheckmethod</web-url>
+        <title-ref>conditioncheckmethod</title-ref>
+        <title>Condition Check Method</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="observed">Observed</option>
+            <option id="xrayed">X-rayed</option>
+        </options>
+    </instance>
+
+    <!--Condition Check Reason-->
+    <instance id="vocab-conditioncheckreason">
+        <web-url>conditioncheckreason</web-url>
+        <title-ref>conditioncheckreason</title-ref>
+        <title>Condition Check Reason</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="conservation">Conservation</option>
+            <option id="damagedintransit">Damaged in transit</option>
+            <option id="loanin">Loan in</option>
+            <option id="newacquisition">New acquisition</option>
+        </options>
+    </instance>
+
+    <!--Salvage Priority Code-->
+    <instance id="vocab-salvageprioritycode">
+        <web-url>salvageprioritycode</web-url>
+        <title-ref>salvageprioritycode</title-ref>
+        <title>Salvage Priority Code</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="low">Low</option>
+            <option id="medium">Medium</option>
+            <option id="high">High</option>
+        </options>
+    </instance>
+
+    <!--Exhibition Object Cons Treatment-->
+    <instance id="vocab-exhibitionobjectconstreatment">
+        <web-url>exhibitionobjectconstreatment</web-url>
+        <title-ref>exhibitionobjectconstreatment</title-ref>
+        <title>Exhibition Object Cons Treatment</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="Needed">Needed</option>
+            <option id="Not needed">Not needed</option>
+            <option id="Done">Done</option>
+        </options>
+    </instance>
+
+    <!--Exhibition Object Mount-->
+    <instance id="vocab-exhibitionobjectmount">
+        <web-url>exhibitionobjectmount</web-url>
+        <title-ref>exhibitionobjectmount</title-ref>
+        <title>Exhibition Object Mount</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="Needed">Needed</option>
+            <option id="Not needed">Not needed</option>
+            <option id="Done">Done</option>
+        </options>
+    </instance>
+
+    <!--Entry Reason-->
+    <instance id="vocab-entryreason">
+        <web-url>entryreason</web-url>
+        <title-ref>entryreason</title-ref>
+        <title>Entry Reason</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="enquiry">Enquiry</option>
+            <option id="consideration">Consideration</option>
+            <option id="commission">Commission</option>
+            <option id="loan">Loan</option>
+        </options>
+    </instance>
+
+    <!--Loan Purpose-->
+    <instance id="vocab-loanpurpose">
+        <web-url>loanpurpose</web-url>
+        <title-ref>loanpurpose</title-ref>
+        <title>Loan Purpose</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="exhibition">Exhibition</option>
+            <option id="research">Research</option>
+            <option id="scientificorexhibitpreparation">Scientific or exhibit preparation</option>
+            <option id="analysis">Analysis</option>
+            <option id="photography">Photography</option>
+            <option id="conservationotherrequestedservices">Conservation or other requested services</option>
+            <option id="longtermcollectionsmanagementandstorage">Long-term collections management and storage
+            </option>
+        </options>
+    </instance>
+
+    <!--Media Types-->
+    <instance id="vocab-mediatypes">
+        <web-url>mediatypes</web-url>
+        <title-ref>mediatypes</title-ref>
+        <title>Media Types</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="dataset" >Dataset</option>
+            <option id="document" >Document</option>
+            <option id="moving_image" >Moving Image</option>
+            <option id="still_image" >Still Image</option>
+            <option id="sound" >Sound</option>
+        </options>
+    </instance>
+
+    <!--Valuation Type-->
+    <instance id="vocab-valuetype">
+        <web-url>valuetype</web-url>
+        <title-ref>valuetype</title-ref>
+        <title>Value Type</title>
+        <options>
+            <option id="">Please select a value</option>
+            <option id="Current Value">Current Value</option>
+            <option id="Original Value">Original Value</option>
+            <option id="Replacement Value">Replacement Value</option>
+        </options>
+    </instance>
+
+    <!--Frequency For Inventory-->
+    <instance id="vocab-frequencyforinventory">
+        <web-url>frequencyforinventory</web-url>
+        <title-ref>frequencyforinventory</title-ref>
+        <title>Frequency For Inventory</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="daily">Daily</option>
+            <option id="weekly">Weekly</option>
+            <option id="monthly">Monthly</option>
+            <option id="semi-annually">Semi-annually</option>
+            <option id="annually">Annually</option>
+        </options>
+    </instance>
+
+    <!--Inventory Action Required-->
+    <instance id="vocab-inventoryactionrequired">
+        <web-url>inventoryactionrequired</web-url>
+        <title-ref>inventoryactionrequired</title-ref>
+        <title>Inventory Action Required</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="conservation">Conservation</option>
+            <option id="preservation">Preservation</option>
+            <option id="re-housing">Re-housing</option>
+        </options>
+    </instance>
+
+    <!--Movement Methods-->
+    <instance id="vocab-movementmethods">
+        <web-url>movementmethods</web-url>
+        <title-ref>movementmethods</title-ref>
+        <title>Movement Methods</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="forklift">Forklift</option>
+            <option id="handcarried">Handcarried</option>
+            <option id="trolley">Trolley</option>
+        </options>
+    </instance>
+
+    <!--Reason For Move-->
+    <instance id="vocab-reasonformove">
+        <web-url>reasonformove</web-url>
+        <title-ref>reasonformove</title-ref>
+        <title>Reason For Move</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="conservation">Conservation</option>
+            <option id="exhibition">Exhibition</option>
+            <option id="inventory">Inventory</option>
+            <option id="loan">Loan</option>
+            <option id="newstoragelocation">New Storage Location</option>
+            <option id="photography">Photography</option>
+            <option id="research">Research</option>
+        </options>
+    </instance>
+
+    <!--Current Location Fitness-->
+    <instance id="vocab-currentlocationfitness">
+        <web-url>currentlocationfitness</web-url>
+        <title-ref>currentlocationfitness</title-ref>
+        <title>Current Location Fitness</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="dangerous">Dangerous</option>
+            <option id="suitable">Suitable</option>
+            <option id="temporary">Temporary</option>
+            <option id="unsuitable">Unsuitable</option>
+        </options>
+    </instance>
+
+    <!--Exit Methods-->
+    <instance id="vocab-exitmethods">
+        <web-url>exitmethods</web-url>
+        <title-ref>exitmethods</title-ref>
+        <title>Exit Methods</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="courier">Courier</option>
+            <option id="inperson">In Person</option>
+            <option id="post">Post</option>
+        </options>
+    </instance>
+
+    <!--Exit Reason-->
+    <instance id="vocab-exitreason">
+        <web-url>exitreason</web-url>
+        <title-ref>exitreason</title-ref>
+        <title>Exit Reason</title>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="deaccession">Deaccession</option>
+            <option id="disposal">Disposal</option>
+            <option id="returnofloan">Return of Loan</option>
+        </options>
+    </instance>
+
+</instances>

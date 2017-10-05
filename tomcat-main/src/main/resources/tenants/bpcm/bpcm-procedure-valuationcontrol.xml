@@ -1,0 +1,15 @@
+<record id="valuationcontrol" is-extension="true" type="record,procedure">
+
+    <services-record-path id="bpcm">
+        valuationcontrols_bpcm:http://collectionspace.org/services/valuationcontrol/local/bpcm,valuationcontrols_bpcm
+    </services-record-path>
+
+    <section id="objectValuationInformation">
+        <field id="valueType" ui-search="repeatable" in-title="yes" mini="summary,search,list,relate"
+               autocomplete="vocab-valuetype" ui-type="enum">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
+        </field>
+    </section>
+</record>

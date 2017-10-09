@@ -1,6 +1,6 @@
 <record id="media" is-extension="true">
 
-    <services-record-path id="bpcm">media_bpcm:http://collectionspace.org/services/media/local/bpcm,media_bpcm
+    <services-record-path id="bcm">media_bcm:http://collectionspace.org/services/media/local/bcm,media_bcm
     </services-record-path>
     <section id="mediaInformation">
         <repeat id="types">

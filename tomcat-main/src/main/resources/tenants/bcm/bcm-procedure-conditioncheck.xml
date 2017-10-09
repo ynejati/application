@@ -1,7 +1,7 @@
 <record id="conditioncheck" is-extension="true">
 
-    <services-record-path id="bpcm">
-        conditionchecks_bpcm:http://collectionspace.org/services/conditioncheck/local/bpcm,conditionchecks_bpcm
+    <services-record-path id="bcm">
+        conditionchecks_bcm:http://collectionspace.org/services/conditioncheck/local/bcm,conditionchecks_bcm
     </services-record-path>
 
     <section id="objectConditionInformation">

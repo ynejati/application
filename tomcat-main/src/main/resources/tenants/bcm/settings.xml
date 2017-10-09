@@ -3,7 +3,7 @@
 		<username>admin@birthplaceofcountrymusic.org</username>
 		<password>Administrator</password>
 		<tenant>50</tenant>
-		<tenantname>bpcm</tenantname>
+		<tenantname>bcm</tenantname>
 		<cookievalidformins>60</cookievalidformins>
 		<!-- termLists, autocomplete instance lists, specs, and schemas,
 						 static UI elements, etc.
@@ -41,7 +41,7 @@
 			<token>
 				<daysvalid>7</daysvalid>
 			</token>
-			<loginpage>/collectionspace/ui/bpcm/html/index.html</loginpage>
+			<loginpage>/collectionspace/ui/bcm/html/index.html</loginpage>
 			<subject>CollectionSpace Password reset request</subject>
 			<message>Hello {{greeting}},\n\r\n\rYou've started the process to reset your CollectionSpace account password.\n\r\n\rTo finish resetting your password, go to the Reset Password page {{link}} on CollectionSpace.\n\r\n\r \n\r\n\rIf clicking the link doesn't work, copy and paste the following link into your browser address bar and click Go.\n\r\n\r{{link}}\n\r \n\r\n\rThanks,\n\r\n\r CollectionSpace Administrator\n\r\n\rPlease do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, contact your CollectionSpace Administrator directly.</message>
 		</passwordreset>
@@ -53,11 +53,11 @@
 				<id>50</id>
 				<name>birthplaceofcountrymusic.org</name>
 				<version>0.1</version>
-				<display-name>CollectionSpace bpcm Tenant</display-name>
-				<create-disabled>${CSPACE_BPCM_CREATE_DISABLED_OPT}</create-disabled>				
+				<display-name>CollectionSpace bcm Tenant</display-name>
+				<create-disabled>${CSPACE_BCM_CREATE_DISABLED_OPT}</create-disabled>
 			</tenant>
 			<repository>
-				<domain>bpcm-domain</domain>
+				<domain>bcm-domain</domain>
 				<client>nuxeo-java</client>
 				<dateformats>
 					<pattern>MM/dd/yyyy</pattern>
@@ -81,25 +81,25 @@
 					<tenantName>testsci.collectionspace.org</tenantName>
 				</remoteclient>
 			</remoteclients>
-			<ims-url>/collectionspace/tenant/bpcm/</ims-url>
+			<ims-url>/collectionspace/tenant/bcm/</ims-url>
 			<!-- NOTE: should be in separate IMS section? -->
 		</service>
 	</persistence>
 	<ui>
 		<web>
-			<login-dest>/collectionspace/ui/bpcm/html/findedit.html</login-dest>
-			<login-failed-dest>/collectionspace/ui/bpcm/html/index.html</login-failed-dest>
-			<front-page>/collectionspace/ui/bpcm/html/index.html</front-page>
+			<login-dest>/collectionspace/ui/bcm/html/findedit.html</login-dest>
+			<login-failed-dest>/collectionspace/ui/bcm/html/index.html</login-failed-dest>
+			<front-page>/collectionspace/ui/bcm/html/index.html</front-page>
 			<find-page>myCollectionSpace</find-page>
 			<tmp-schema-path></tmp-schema-path>
 			<mappings>
 				<map id="record">
 					<recordtype>record</recordtype>
-					<file>/bpcm/html/record.html</file>
+					<file>/bcm/html/record.html</file>
 				</map>
 				<map id="authority">
 					<recordtype>authority</recordtype>
-					<file>/bpcm/html/record.html</file>
+					<file>/bcm/html/record.html</file>
 					<configure>
 						<meta id="recordType">{instance/web-url}</meta>
 					</configure>
@@ -107,9 +107,9 @@
 				<map id="procedure">
 					<url></url>
 					<recordtype>procedure</recordtype>
-					<file>/bpcm/html/record.html</file>
+					<file>/bcm/html/record.html</file>
 					<configure>
-						<meta id="title">bpcm CollectionSpace - {record/web-url}</meta>
+						<meta id="title">bcm CollectionSpace - {record/web-url}</meta>
 					</configure>
 				</map>
 			</mappings>

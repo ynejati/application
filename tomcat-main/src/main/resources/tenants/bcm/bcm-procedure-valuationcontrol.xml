@@ -1,7 +1,7 @@
 <record id="valuationcontrol" is-extension="true" type="record,procedure">
 
-    <services-record-path id="bpcm">
-        valuationcontrols_bpcm:http://collectionspace.org/services/valuationcontrol/local/bpcm,valuationcontrols_bpcm
+    <services-record-path id="bcm">
+        valuationcontrols_bcm:http://collectionspace.org/services/valuationcontrol/local/bcm,valuationcontrols_bcm
     </services-record-path>
 
     <section id="objectValuationInformation">

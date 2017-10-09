@@ -1,5 +1,4 @@
 <record id="preferredCI" is-extension="true">
-	<hassoftdelete>true</hassoftdelete>
 	<section id="termInformation">
 		<!-- List containing this item's preferred term and any non-preferred terms -->
 		<repeat id="citationTermGroupList/citationTermGroup">

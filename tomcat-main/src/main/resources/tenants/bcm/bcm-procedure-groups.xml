@@ -1,5 +1,5 @@
 <record id="group" is-extension="true" type="record,procedure">
-    <services-record-path id="bpcm">groups_bpcm:http://collectionspace.org/services/group/local/bpcm,groups_bpcm
+    <services-record-path id="bcm">groups_bcm:http://collectionspace.org/services/group/local/bcm,groups_bcm
     </services-record-path>
     <section id="groupInformation">
         <field id="responsibleDepartment" seperate_ui_container="true" autocomplete="vocab-responsibledepartments" ui-type="enum">

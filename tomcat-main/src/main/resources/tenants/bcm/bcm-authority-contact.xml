@@ -1,4 +1,4 @@
-<record id="contact" type="authority,compute-displayname" is-extension="true">
+<record id="contact" is-extension="true">
     <section id="contactInformation">
         <repeat id="emailGroupList/emailGroup">
             <field id="emailType" autocomplete="vocab-emailtype" ui-type="enum">
@@ -48,5 +48,4 @@
             </field>
         </repeat>
     </section>
-
 </record>

@@ -1,0 +1,78 @@
+<cspace-config tenantname="bcm">
+	<tenantid>50</tenantid>
+	<version>11</version>
+    <include src="settings.xml,local-bcm-settings.xml" required="false" merge="xmlmerge-settings.properties"
+		strip-root="yes" />
+
+	<spec>
+		<include src="base-relations.xml"/>
+		<include src="base-schemas.xml"/>
+
+		<records>
+			<enum-blank> </enum-blank>
+
+			<include src="base-collectionobject.xml,bcm-collectionobject.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority.xml"/>
+
+			<include src="base-procedure-acquisition.xml,bcm-procedure-acquisition.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-blobs.xml"/>
+			<include src="base-procedure-conditioncheck.xml,bcm-procedure-conditioncheck.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-exhibition.xml,bcm-procedure-exhibition.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-groups.xml,bcm-procedure-groups.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-intake.xml,bcm-procedure-intake.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-loanin.xml,bcm-procedure-loanin.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-loanout.xml,bcm-procedure-loanout.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-media.xml,bcm-procedure-media.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-valuationcontrol.xml,bcm-procedure-valuationcontrol.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-movement.xml,bcm-procedure-movement.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-objectexit.xml,bcm-procedure-objectexit.xml" merge="xmlmerge.properties"/>
+			<include src="base-procedure-conservation.xml,bcm-procedure-conservation.xml" merge="xmlmerge.properties"/>
+
+			<include src="base-authority-contact.xml,bcm-authority-contact.xml" merge="xmlmerge.properties"/>
+                        <!-- IMPORTANT: *-termList.xml files MUST precede their equivalent files. -->
+			<include src="base-authority-location-termList.xml,bcm-authority-location-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-location.xml,bcm-authority-location.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-organization-termList.xml,bcm-authority-organization-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-organization.xml,bcm-authority-organization.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-person-termList.xml,bcm-authority-person-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-person.xml,bcm-authority-person.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-citation-termList.xml,bcm-authority-citation-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-citation.xml" />
+			<include src="base-authority-place-termList.xml,bcm-authority-place-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-place.xml,bcm-authority-place.xml" merge="xmlmerge.properties"/>
+			
+			<!-- Commented out to disable Taxon for the 'bcm' tenant per CSPACE-4466 -->
+			<!-- include src="base-authority-taxon-termList.xml"/ -->
+            <!-- include src="base-authority-taxon.xml"/ -->
+			
+			<include src="base-authority-concept-termList.xml,bcm-authority-concept-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-concept.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-work-termList.xml,bcm-authority-work-termList.xml" merge="xmlmerge.properties"/>
+			<include src="base-authority-work.xml,bcm-authority-work.xml" merge="xmlmerge.properties"/>
+
+			<include src="base-vocabularies.xml,bcm-instance-vocabularies.xml" merge="xmlmerge.properties"/>
+
+			<include src="base-authz-accountrole.xml"/>
+			<include src="base-authz-permission.xml"/>
+			<include src="base-authz-permrole.xml"/>
+			<include src="base-authz-role.xml"/>
+			<include src="base-authz-userperm.xml"/>
+			<include src="base-authz-userrole.xml"/>
+			<include src="base-authz-users.xml"/>
+
+			<include src="base-other-dimension.xml"/>
+			<include src="base-other-address.xml"/>
+			<include src="base-other-hierarchy.xml"/>
+			<include src="base-other-idgenerator.xml"/>
+			<include src="base-other-structureddate.xml"/>
+			<include src="base-other-termlist.xml"/>
+			<include src="base-other-termlistitem.xml"/>
+			<include src="base-other-reporting.xml"/>
+			<include src="base-other-reportingoutput.xml"/>
+		    <include src="base-other-batch.xml"/>
+		    <include src="base-other-batchoutput.xml"/>
+		    <include src="base-other-invocationresults.xml"/>		    
+			<include src="base-other-searchall.xml"/>
+		</records>
+	</spec>
+</cspace-config>

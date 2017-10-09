@@ -1,6 +1,6 @@
 <record id="intake" is-extension="true" type="record,procedure">
 
-    <services-record-path id="bpcm">intakes_bpcm:http://collectionspace.org/services/intake/local/bpcm,intakes_bpcm
+    <services-record-path id="bcm">intakes_bcm:http://collectionspace.org/services/intake/local/bcm,intakes_bcm
     </services-record-path>
 
     <section id="objectEntryInformation">

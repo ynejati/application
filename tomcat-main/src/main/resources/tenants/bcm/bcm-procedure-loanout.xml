@@ -1,6 +1,6 @@
 <record id="loanout" is-extension="true" type="record,procedure">
 
-    <services-record-path id="bpcm">loansout_bpcm:http://collectionspace.org/services/loanout/local/bpcm,loansout_bpcm
+    <services-record-path id="bcm">loansout_bcm:http://collectionspace.org/services/loanout/local/bcm,loansout_bcm
     </services-record-path>
 
     <section id="loanoutInformation">

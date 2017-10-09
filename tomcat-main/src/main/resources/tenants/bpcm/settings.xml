@@ -54,7 +54,7 @@
 				<name>birthplaceofcountrymusic.org</name>
 				<version>0.1</version>
 				<display-name>CollectionSpace bpcm Tenant</display-name>
-				<create-disabled>false</create-disabled>
+				<create-disabled>${CSPACE_BPCM_CREATE_DISABLED_OPT}</create-disabled>				
 			</tenant>
 			<repository>
 				<domain>bpcm-domain</domain>

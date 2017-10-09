@@ -19,21 +19,27 @@
             <!-- Recommendation: Hide termType in the UI because taxonomy has established -->
             <!-- international nomenclature standards. -->
             <!-- FIXME: Should we remove this field from mini-records? - ADR 2012-05-18 -->
-            <field id="termType" ui-type="enum" autocomplete="vocab-taxontermtype">
+            <field id="termType">
                 <selector>taxonAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="">Please select a value</option>
+                    <option id="descriptor">Descriptor</option>
+                    <option id="alternate descriptor">Alternate Descriptor</option>
+                    <option id="used for term">Used for Term</option>
+                </options>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-taxontermflag" ui-type="enum">
                 <selector>taxonAuthority-termFlag</selector>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
-                mini="search,list,relate" autocomplete="vocab-taxontermstatus" ui-type="enum">
+                mini="search,list,relate">
                 <selector>taxonAuthority-termStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="provisional" default="yes">Provisional</option>
+                    <option id="under review">Under Review</option>
+                    <option id="accepted">Accepted</option>
+                    <option id="rejected">Rejected</option>
+                </options>
             </field>
             <field id="termQualifier">
                 <selector>taxonAuthority-termQualifier</selector>
@@ -64,11 +70,15 @@
                 <selector>taxonAuthority-termFormattedDisplayName</selector>
             </field>
             <!-- Fields specific to Taxon terms -->
-            <field id="taxonomicStatus" ui-search="repeatable" autocomplete="vocab-taxonomicstatus" ui-type="enum">
+            <field id="taxonomicStatus" ui-search="repeatable" >
                 <selector>taxonAuthority-taxonomicStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="" default="yes">Please select a value</option>
+                    <option id="valid">Valid</option>
+                    <option id="invalid">Invalid</option>
+                    <option id="accepted">Accepted</option>
+                    <option id="misapplied name">Misapplied Name</option>
+                </options>
             </field>
         </repeat>
     </section>

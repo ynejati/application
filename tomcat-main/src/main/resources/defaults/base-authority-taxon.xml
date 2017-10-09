@@ -65,23 +65,36 @@
         <repeat id="taxonRecordTypes">
             <field id="taxonRecordType" ui-search="repeatable" autocomplete="vocab-taxontype" ui-type="enum"/>
         </repeat>
-        <field id="taxonRank" ui-search="repeatable" seperate_ui_container="true" ui-type="enum" autocomplete="vocab-taxonrank">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
+        <field id="taxonRank" ui-search="repeatable" seperate_ui_container="true">
+            <options>
+                <option id="" default="yes">Please select a value</option>
+                <option id="domain">Domain</option>
+                <option id="kingdom">Kingdom</option>
+                <option id="phylum">Phylum</option>
+                <option id="division">Division</option>
+                <option id="family">Family</option>
+                <option id="class">Class</option>
+                <option id="order">Order</option>
+                <option id="genus">Genus</option>
+                <option id="species">Species</option>
+            </options>
         </field>
-        <field id="taxonCurrency" ui-search="repeatable" seperate_ui_container="true"
-               ui-type="enum" autocomplete="vocab-taxoncurrency">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
+        <field id="taxonCurrency" ui-search="repeatable" seperate_ui_container="true">
+            <options>
+                <option id="" default="yes">Please select a value</option>
+                <option id="current">Current</option>
+                <option id="obsolete">Obsolete</option>
+                <option id="archaic">Archaic</option>
+            </options>
         </field>
         <repeat id="taxonAuthorGroupList/taxonAuthorGroup" has-primary="yes">
             <field id="taxonAuthor" ui-search="repeatable" autocomplete="person-person,person-person_shared"/>
-            <field id="taxonAuthorType" seperate_ui_container="true" autocomplete="vocab-taxonauthortype" ui-type="enum">
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+            <field id="taxonAuthorType" seperate_ui_container="true">
+                <options>
+                    <option id="" default="yes">Please select a value</option>
+                    <option id="ascribed">Ascribed</option>
+                    <option id="parenthetical">Parenthetical</option>
+                </options>
             </field>
         </repeat>
         <field id="taxonYear" ui-search="repeatable"/>

@@ -1,0 +1,20 @@
+<record id="preferredSLA" is-extension="true">
+    <hassoftdelete>true</hassoftdelete>
+    <section id="termInformation">
+        <repeat id="locTermGroupList/locTermGroup">
+            <field id="termType" autocomplete="vocab-locationtermtype" ui-type="enum">
+                <selector>locationAuthority-termType</selector>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate"
+                   autocomplete="vocab-locationtermstatus" ui-type="enum">
+                <selector>locationAuthority-termStatus</selector>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+    </section>
+</record>

@@ -12,21 +12,26 @@
             <field id="termName" ui-search="repeatable">
                 <selector>locationAuthority-termName</selector>
             </field>
-            <field id="termType" autocomplete="vocab-locationtermtype" ui-type="enum">
+            <field id="termType">
                 <selector>locationAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="">Please select a value</option>
+                    <option id="descriptor">descriptor</option>
+                    <option id="alternate descriptor">alternate descriptor</option>
+                    <option id="used for term">used for term</option>
+                </options>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-locationtermflag" ui-type="enum">
                 <selector>locationAuthority-termFlag</selector>
             </field>
-            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate"
-            autocomplete="vocab-locationtermstatus" ui-type="enum">
+            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate">
                 <selector>locationAuthority-termStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="provisional" default="yes">Provisional</option>
+                    <option id="under review">Under Review</option>
+                    <option id="accepted">Accepted</option>
+                    <option id="rejected">Rejected</option>
+                </options>
             </field>
             <field id="termQualifier">
                 <selector>locationAuthority-termQualifier</selector>

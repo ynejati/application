@@ -1,0 +1,46 @@
+<record id="place" type="authority" is-extension="true">
+
+    <section id="placeAuthorityInformation">
+        <field id="placeType" ui-search="repeatable" autocomplete="vocab-placetype" ui-type="enum">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
+        </field>
+    </section>
+    <section id="localityInformation">
+        <field id="vCoordSys" autocomplete="vocab-vcoordsystem" ui-type="enum">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
+        </field>
+        <field id="vSpatialReferenceSystem" ui-type="enum" autocomplete="vocab-vspatialreferencesystem">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
+        </field>
+        <field id="vUnitofMeasure" ui-type="enum" autocomplete="vunitofmeasure">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
+        </field>
+    </section>
+    <section id="geoReferenceInformation">
+        <repeat id="placeGeoRefGroupList/placeGeoRefGroup">
+            <field id="geodeticDatum" ui-type="enum" autocomplete="vocab-geodeticdatum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+            <field id="geoRefProtocol" ui-type="enum" autocomplete="georefprotocol">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+            <field id="geoRefVerificationStatus" ui-type="enum" autocomplete="vocab-georefverificationstatus">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+    </section>
+</record>

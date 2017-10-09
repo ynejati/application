@@ -1,0 +1,52 @@
+<record id="contact" type="authority,compute-displayname" is-extension="true">
+    <section id="contactInformation">
+        <repeat id="emailGroupList/emailGroup">
+            <field id="emailType" autocomplete="vocab-emailtype" ui-type="enum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+
+        <repeat id="webAddressGroupList/webAddressGroup">
+            <field id="webAddress"></field>
+            <field id="webAddressType" autocomplete="vocab-webaddresstype" ui-type="enum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+
+        <repeat id="telephoneNumberGroupList/telephoneNumberGroup">
+            <field id="telephoneNumber"></field>
+            <field id="telephoneNumberType" autocomplete="vocab-telephonenumbertype" ui-type="enum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+
+        <repeat id="faxNumberGroupList/faxNumberGroup">
+            <field id="faxNumber"></field>
+            <field id="faxNumberType" autocomplete="vocab-faxnumbertype" ui-type="enum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+
+        <repeat id="addressGroupList/addressGroup">
+            <field id="addressCountry" autocomplete="vocab-addresscountry" ui-type="enum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+            <field id="addressType" autocomplete="vocab-addresstype" ui-type="enum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+    </section>
+
+</record>

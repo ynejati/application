@@ -1,0 +1,22 @@
+<record id="preferredCI" is-extension="true">
+	<hassoftdelete>true</hassoftdelete>
+	<section id="termInformation">
+		<!-- List containing this item's preferred term and any non-preferred terms -->
+		<repeat id="citationTermGroupList/citationTermGroup">
+			<field id="termType" ui-search="repeatable" autocomplete="vocab-citationtermtype"
+				ui-type="enum">
+				<selector>citationAuthority-termType</selector>
+				<enum>
+					<blank-value>Please select a value</blank-value>
+				</enum>
+			</field>
+			<field id="termStatus" ui-search="repeatable"
+				seperate_ui_container="true" mini="search,list,relate" autocomplete="vocab-citationtermstatus" ui-type="enum">
+				<selector>citationAuthority-termStatus</selector>
+				<enum>
+					<blank-value>Please select a value</blank-value>
+				</enum>
+			</field>
+		</repeat>
+	</section>
+</record>

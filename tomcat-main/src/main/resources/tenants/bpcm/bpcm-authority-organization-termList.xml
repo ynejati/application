@@ -1,0 +1,20 @@
+<record id="preferredOA" is-extension="true">
+    <section id="termInformation">
+        <!-- List containing this item's preferred term and any non-preferred terms -->
+        <repeat id="orgTermGroupList/orgTermGroup">
+            <field id="termType" autocomplete="voab-organizationtermtype" ui-type="enum">
+                <selector>orgAuthority-termType</selector>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate"
+                   autocomplete="vocab-organizationtermstatus" ui-type="enum">
+                <selector>orgAuthority-termStatus</selector>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
+            </field>
+        </repeat>
+    </section>
+</record>

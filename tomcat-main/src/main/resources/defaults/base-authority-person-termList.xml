@@ -14,19 +14,19 @@
             </field>
             <field id="termType" autocomplete="vocab-persontermtype" ui-type="enum">
                 <selector>personAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-persontermflag" ui-type="enum">
                 <selector>personAuthority-termFlag</selector>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
-                mini="search,list,relate" autocomplete="vocab-persontermstatus" ui-type="enum">
+                mini="search,list,relate">
                 <selector>personAuthority-termStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="provisional" default="yes">Provisional</option>
+                    <option id="under review">Under Review</option>
+                    <option id="accepted">Accepted</option>
+                    <option id="rejected">Rejected</option>
+                </options>
             </field>
             <field id="termQualifier">
                 <selector>personAuthority-termQualifier</selector>
@@ -53,17 +53,31 @@
                 <selector>personAuthority-termFormattedDisplayName</selector>
             </field>
             <!-- Fields specific to Person terms -->
-            <field id="salutation" autocomplete="vocab-salutation" ui-type="enum">
+            <field id="salutation">
                 <selector>personAuthority-salutation</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="dear" default="yes">Dear</option>
+                    <option id="hello">Hello</option>
+                    <option id="to">To</option>
+                </options>
             </field>
-            <field id="title" autocomplete="vocab-persontitle" ui-type="enum">
+            <field id="title">
                 <selector>personAuthority-title</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
+                <options>
+                    <option id="" default="yes">Please select a value</option>
+                    <option id="Mr">Mr</option>
+                    <option id="Mrs">Mrs</option>
+                    <option id="Ms">Ms</option>
+                    <option id="Miss">Miss</option>
+                    <option id="Dr">Dr</option>
+                    <option id="Professor">Professor</option>
+                    <option id="Sir">Sir</option>
+                    <option id="Dame">Dame</option>
+                    <option id="Baron">Baron</option>
+                    <option id="Baroness">Baroness</option>
+                    <option id="Lord">Lord</option>
+                    <option id="Lady">Lady</option>
+                </options>
             </field>
             <field id="foreName" mini="list,search,relate">
                 <selector>personAuthority-foreName</selector>

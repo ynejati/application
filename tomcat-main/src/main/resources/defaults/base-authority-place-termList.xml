@@ -12,31 +12,21 @@
             <field id="termName" ui-search="repeatable">
                 <selector>placeAuthority-termName</selector>
             </field>
-            <field id="termType" seperate_ui_container="true">
+            <field id="termType" seperate_ui_container="true" autocomplete="vocab-placetermtype" ui-type="enum">
                 <selector>placeAuthority-termType</selector>
-                <options>
-                    <option id="">Please select a value</option>
-                    <option id="common">Common name</option>
-                    <option id="technical-scientific">Technical or scientific name</option>
-                    <option id="native">Native name</option>
-                    <option id="non-native">Non-native name</option>
-                    <option id="local">Local name</option>
-                    <option id="descriptive">Descriptive name</option>
-                    <option id="spelling-variant">Spelling variant</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-placetermflag" ui-type="enum">
                 <selector>placeAuthority-termFlag</selector>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
-                mini="search,list,relate">
+                mini="search,list,relate" ui-type="enum" autocomplete="vocab-placetermstatus">
                 <selector>placeAuthority-termStatus</selector>
-                <options>
-                    <option id="provisional" default="yes">Provisional</option>
-                    <option id="under review">Under Review</option>
-                    <option id="accepted">Accepted</option>
-                    <option id="rejected">Rejected</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termQualifier">
                 <selector>placeAuthority-termQualifier</selector>
@@ -63,13 +53,11 @@
                 <selector>placeAuthority-termFormattedDisplayName</selector>
             </field>
             <!-- Fields specific to Place terms -->
-            <field id="historicalStatus">
+            <field id="historicalStatus" autocomplete="vocab-historicalstatus" ui-type="enum">
                 <selector>placeAuthority-historicalStatus</selector>
-                <options>
-                    <option id="current" default="yes">Current</option>
-                    <option id="historical">Historical</option>
-                    <option id="both">Both</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="nameAbbrev">
                 <selector>placeAuthority-nameAbbrev</selector>

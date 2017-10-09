@@ -16,19 +16,19 @@
 			<field id="termType" ui-search="repeatable" autocomplete="vocab-citationtermtype"
 				ui-type="enum">
 				<selector>citationAuthority-termType</selector>
+				<enum>
+					<blank-value>Please select a value</blank-value>
+				</enum>
 			</field>
 			<field id="termFlag" ui-search="repeatable" autocomplete="vocab-citationtermflag" ui-type="enum">
 				<selector>citationAuthority-termFlag</selector>
 			</field>
 			<field id="termStatus" ui-search="repeatable"
-				seperate_ui_container="true" mini="search,list,relate">
+				seperate_ui_container="true" mini="search,list,relate" autocomplete="vocab-citationtermstatus" ui-type="enum">
 				<selector>citationAuthority-termStatus</selector>
-				<options>
-					<option id="provisional" default="yes">Provisional</option>
-					<option id="under review">Under Review</option>
-					<option id="accepted">Accepted</option>
-					<option id="rejected">Rejected</option>
-				</options>
+				<enum>
+					<blank-value>Please select a value</blank-value>
+				</enum>
 			</field>
 			<field id="termQualifier">
 				<selector>citationAuthority-termQualifier</selector>

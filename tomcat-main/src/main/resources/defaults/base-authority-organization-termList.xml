@@ -12,26 +12,20 @@
             <field id="termName">
                 <selector>orgAuthority-termName</selector>
             </field>
-            <field id="termType">
+            <field id="termType" autocomplete="voab-organizationtermtype" ui-type="enum">
                 <selector>orgAuthority-termType</selector>
-                <options>
-                    <option id="">Please select a value</option>
-                    <option id="descriptor">descriptor</option>
-                    <option id="alternate descriptor">alternate descriptor</option>
-                    <option id="used for term">used for term</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-orgtermflag" ui-type="enum">
                 <selector>orgAuthority-termFlag</selector>
             </field>
-            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate">
+            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate" autocomplete="vocab-organizationtermstatus" ui-type="enum">
                 <selector>orgAuthority-termStatus</selector>
-                <options>
-                    <option id="provisional" default="yes">Provisional</option>
-                    <option id="under review">Under Review</option>
-                    <option id="accepted">Accepted</option>
-                    <option id="rejected">Rejected</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termQualifier">
                 <selector>orgAuthority-Qualifier</selector>

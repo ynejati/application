@@ -5,7 +5,6 @@
         <title-ref>collectionobjectnumbertype</title-ref>
         <title>Cataloging Number Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="lender">Lender</option>
             <option id="obsolete">Obsolete</option>
             <option id="previous">Previous</option>
@@ -20,7 +19,6 @@
         <title-ref>responsibledepartments</title-ref>
         <title>Responsible Departments</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="antiquities">Antiquities</option>
             <option id="architecture-design">Architecture and Design</option>
             <option id="decorative-arts">Decorative Arts</option>
@@ -40,7 +38,6 @@
         <title-ref>collection</title-ref>
         <title>Collection</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="library-collection">Library collection</option>
             <option id="permanent-collection">Permanent collection</option>
             <option id="study-collection">Study collection</option>
@@ -67,7 +64,6 @@
         <title-ref>titletype</title-ref>
         <title>Title Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="assigned-by-artist">Assigned by Artist</option>
             <option id="collection">Collection</option>
             <option id="generic">Generic</option>
@@ -83,7 +79,6 @@
         <title-ref>objectnamecurrency</title-ref>
         <title>Object Name Currency</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="current">Current</option>
             <option id="archaic">Archaic</option>
         </options>
@@ -95,7 +90,6 @@
         <title-ref>objectnamelevel</title-ref>
         <title>Object Name Level</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="group">Group</option>
             <option id="subgroup">Subgroup</option>
         </options>
@@ -107,7 +101,6 @@
         <title-ref>objectnamesystem</title-ref>
         <title>Object Name System</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="art-and-architecture-thesaurus">Art &amp; Architecture Thesaurus</option>
             <option id="nomenclature">Nomenclature</option>
         </options>
@@ -119,7 +112,6 @@
         <title-ref>objectnametype</title-ref>
         <title>Object Name Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="classified">Classified</option>
             <option id="denomination">Denomination</option>
             <option id="simple">Simple</option>
@@ -134,7 +126,6 @@
         <title-ref>objectstatus</title-ref>
         <title>Object Status</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="copy">copy</option>
             <option id="forgery">forgery</option>
             <option id="holotype">holotype</option>
@@ -150,7 +141,6 @@
         <title-ref>sex</title-ref>
         <title>Sex</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="male">male</option>
             <option id="female">female</option>
         </options>
@@ -162,7 +152,6 @@
         <title-ref>phase</title-ref>
         <title>Phase</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="adult">adult</option>
             <option id="imago">imago</option>
             <option id="larva">larva</option>
@@ -177,7 +166,6 @@
         <title-ref>form</title-ref>
         <title>Form</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="dry">dry</option>
             <option id="pinned">pinned</option>
             <option id="thin-section">thin section</option>
@@ -191,7 +179,6 @@
         <title-ref>ageunit</title-ref>
         <title>Age Unit</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="days">Days</option>
             <option id="months">Months</option>
             <option id="weeks">Weeks</option>
@@ -205,7 +192,6 @@
         <title-ref>objectcomponentname</title-ref>
         <title>Object Component Name</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="blade">blade</option>
             <option id="buttonhole">buttonhole</option>
             <option id="handle">handle</option>
@@ -219,7 +205,6 @@
         <title-ref>technicalattribute</title-ref>
         <title>Technical Attribute</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="magnetic-tape-type">magnetic tape type</option>
             <option id="record-speed">record speed</option>
         </options>
@@ -231,7 +216,6 @@
         <title-ref>technicalattributemeasurement</title-ref>
         <title>Technical Attribute Measurement</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="metal">metal</option>
             <option id="78">78</option>
         </options>
@@ -243,7 +227,6 @@
         <title-ref>technicalattributemeasurementunit</title-ref>
         <title>Technical Attribute Measurement Unit</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="rpm">rpm</option>
         </options>
     </instance>
@@ -254,7 +237,6 @@
         <title-ref>contentpositions</title-ref>
         <title>Content Positions</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="back">back</option>
             <option id="base">base</option>
             <option id="bottom">bottom</option>
@@ -276,7 +258,6 @@
         <title-ref>contentobjecttype</title-ref>
         <title>Content Object Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="furniture">Furniture</option>
             <option id="food">Food</option>
         </options>
@@ -288,7 +269,6 @@
         <title-ref>contentscript</title-ref>
         <title>Content Scripts</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="carolingian-miniscule">Carolingian miniscule</option>
             <option id="gothic-script">Gothic script</option>
             <option id="palmer-method">Palmer method</option>
@@ -305,7 +285,6 @@
         <title-ref>inscriptioncontentposition</title-ref>
         <title>Inscription Content Position</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="back">back</option>
             <option id="base">base</option>
             <option id="bottom">bottom</option>
@@ -327,7 +306,6 @@
         <title-ref>inscriptioncontentscript</title-ref>
         <title>Inscription Content Script</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="carolingian-miniscule">Carolingian miniscule</option>
             <option id="gothic-script">Gothic script</option>
             <option id="palmer-method">Palmer method</option>
@@ -344,7 +322,6 @@
         <title-ref>inscriptioncontenttype</title-ref>
         <title>Inscription Content Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="brand">brand</option>
             <option id="decoration">decoration</option>
             <option id="estate-stamp">estate stamp</option>
@@ -360,7 +337,6 @@
         <title-ref>inscriptiondescriptionposition</title-ref>
         <title>Inscription Description Position</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="back">back</option>
             <option id="base">base</option>
             <option id="bottom">bottom</option>
@@ -382,7 +358,6 @@
         <title-ref>inscriptiondescriptiontype</title-ref>
         <title>Inscription Description Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="brand">brand</option>
             <option id="decoration">decoration</option>
             <option id="estate-stamp">estate stamp</option>
@@ -398,7 +373,6 @@
         <title-ref>ownershipaccess</title-ref>
         <title>Ownership Access</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="limited">limited</option>
             <option id="open">open</option>
             <option id="restricted">restricted</option>
@@ -411,7 +385,6 @@
         <title-ref>ownershipcategory</title-ref>
         <title>Ownership Category</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="company">company</option>
             <option id="public">public</option>
             <option id="private">private</option>
@@ -424,7 +397,6 @@
         <title-ref>ownershipexchangemethod</title-ref>
         <title>Ownership Exchange Method</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="bequest">bequest</option>
             <option id="exchange">exchange</option>
             <option id="gift">gift</option>
@@ -440,7 +412,6 @@
         <title-ref>acquisitionmethod</title-ref>
         <title>Acquisition Method</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="bequest">bequest</option>
             <option id="exchange">exchange</option>
             <option id="gift">gift</option>
@@ -456,7 +427,6 @@
         <title-ref>objectauditcategory</title-ref>
         <title>Object Audit Category</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="low">Low</option>
             <option id="medium">Medium</option>
             <option id="high">High</option>
@@ -469,7 +439,6 @@
         <title-ref>completeness</title-ref>
         <title>Completeness</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="complete">Complete</option>
             <option id="fragmented">Fragmented</option>
             <option id="incomplete">Incomplete</option>
@@ -482,7 +451,6 @@
         <title-ref>condition</title-ref>
         <title>Condition</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="needsnowork">Needs no work</option>
             <option id="exhibitableneedswork">Exhibitable / needs work</option>
             <option id="notexhibitablestable">Not exhibitable / stable</option>
@@ -496,7 +464,6 @@
         <title-ref>conservationtreatmentpriority</title-ref>
         <title>Conservation Treatment Priority</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="low">Low</option>
             <option id="medium">Medium</option>
             <option id="high">High</option>
@@ -509,7 +476,6 @@
         <title-ref>hazard</title-ref>
         <title>Hazard</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="poisonous">Poisonous</option>
             <option id="radioactive">Radioactive</option>
         </options>
@@ -521,7 +487,6 @@
         <title-ref>conditioncheckmethod</title-ref>
         <title>Condition Check Method</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="observed">Observed</option>
             <option id="xrayed">X-rayed</option>
         </options>
@@ -533,7 +498,6 @@
         <title-ref>conditioncheckreason</title-ref>
         <title>Condition Check Reason</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="conservation">Conservation</option>
             <option id="damagedintransit">Damaged in transit</option>
             <option id="loanin">Loan in</option>
@@ -547,7 +511,6 @@
         <title-ref>salvageprioritycode</title-ref>
         <title>Salvage Priority Code</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="low">Low</option>
             <option id="medium">Medium</option>
             <option id="high">High</option>
@@ -560,7 +523,6 @@
         <title-ref>exhibitionobjectconstreatment</title-ref>
         <title>Exhibition Object Cons Treatment</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="Needed">Needed</option>
             <option id="Not needed">Not needed</option>
             <option id="Done">Done</option>
@@ -573,7 +535,6 @@
         <title-ref>exhibitionobjectmount</title-ref>
         <title>Exhibition Object Mount</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="Needed">Needed</option>
             <option id="Not needed">Not needed</option>
             <option id="Done">Done</option>
@@ -586,7 +547,6 @@
         <title-ref>entryreason</title-ref>
         <title>Entry Reason</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="enquiry">Enquiry</option>
             <option id="consideration">Consideration</option>
             <option id="commission">Commission</option>
@@ -600,7 +560,6 @@
         <title-ref>loanpurpose</title-ref>
         <title>Loan Purpose</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="exhibition">Exhibition</option>
             <option id="research">Research</option>
             <option id="scientificorexhibitpreparation">Scientific or exhibit preparation</option>
@@ -618,12 +577,11 @@
         <title-ref>mediatypes</title-ref>
         <title>Media Types</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
-            <option id="dataset" >Dataset</option>
-            <option id="document" >Document</option>
-            <option id="moving_image" >Moving Image</option>
-            <option id="still_image" >Still Image</option>
-            <option id="sound" >Sound</option>
+            <option id="dataset">Dataset</option>
+            <option id="document">Document</option>
+            <option id="moving_image">Moving Image</option>
+            <option id="still_image">Still Image</option>
+            <option id="sound">Sound</option>
         </options>
     </instance>
 
@@ -633,7 +591,6 @@
         <title-ref>valuetype</title-ref>
         <title>Value Type</title>
         <options>
-            <option id="">Please select a value</option>
             <option id="Current Value">Current Value</option>
             <option id="Original Value">Original Value</option>
             <option id="Replacement Value">Replacement Value</option>
@@ -646,7 +603,6 @@
         <title-ref>frequencyforinventory</title-ref>
         <title>Frequency For Inventory</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="daily">Daily</option>
             <option id="weekly">Weekly</option>
             <option id="monthly">Monthly</option>
@@ -661,7 +617,6 @@
         <title-ref>inventoryactionrequired</title-ref>
         <title>Inventory Action Required</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="conservation">Conservation</option>
             <option id="preservation">Preservation</option>
             <option id="re-housing">Re-housing</option>
@@ -674,7 +629,6 @@
         <title-ref>movementmethods</title-ref>
         <title>Movement Methods</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="forklift">Forklift</option>
             <option id="handcarried">Handcarried</option>
             <option id="trolley">Trolley</option>
@@ -687,7 +641,6 @@
         <title-ref>reasonformove</title-ref>
         <title>Reason For Move</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="conservation">Conservation</option>
             <option id="exhibition">Exhibition</option>
             <option id="inventory">Inventory</option>
@@ -704,7 +657,6 @@
         <title-ref>currentlocationfitness</title-ref>
         <title>Current Location Fitness</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="dangerous">Dangerous</option>
             <option id="suitable">Suitable</option>
             <option id="temporary">Temporary</option>
@@ -718,7 +670,6 @@
         <title-ref>exitmethods</title-ref>
         <title>Exit Methods</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="courier">Courier</option>
             <option id="inperson">In Person</option>
             <option id="post">Post</option>
@@ -731,11 +682,991 @@
         <title-ref>exitreason</title-ref>
         <title>Exit Reason</title>
         <options>
-            <option id="" default="yes">Please select a value</option>
             <option id="deaccession">Deaccession</option>
             <option id="disposal">Disposal</option>
             <option id="returnofloan">Return of Loan</option>
         </options>
     </instance>
+
+    <!--Term status-->
+    <instance id="vocab-termstatus">
+        <web-url>termstatus</web-url>
+        <title-ref>termstatus</title-ref>
+        <title>Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+
+    <!--Citation Term status-->
+    <instance id="vocab-citationtermstatus">
+        <web-url>citationtermstatus</web-url>
+        <title-ref>citationtermstatus</title-ref>
+        <title>Citation Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Material Term status-->
+    <instance id="vocab-materialtermstatus">
+        <web-url>materialtermstatus</web-url>
+        <title-ref>materialtermstatus</title-ref>
+        <title>Material Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Location Term status-->
+    <instance id="vocab-locationtermstatus">
+        <web-url>locationtermstatus</web-url>
+        <title-ref>locationtermstatus</title-ref>
+        <title>Location Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Concept status-->
+    <instance id="vocab-concepttermstatus">
+        <web-url>concepttermstatus</web-url>
+        <title-ref>concepttermstatus</title-ref>
+        <title>Concept Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Place Term status-->
+    <instance id="vocab-placetermstatus">
+        <web-url>placetermstatus</web-url>
+        <title-ref>placetermstatus</title-ref>
+        <title>Place Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Org Term status-->
+    <instance id="vocab-organizationtermstatus">
+        <web-url>organizationtermstatus</web-url>
+        <title-ref>organizationtermstatus</title-ref>
+        <title>Organization Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Other Term status-->
+    <instance id="vocab-othertermstatus">
+        <web-url>othertermstatus</web-url>
+        <title-ref>othertermstatus</title-ref>
+        <title>Other Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Taxon Term status-->
+    <instance id="vocab-taxontermstatus">
+        <web-url>taxontermstatus</web-url>
+        <title-ref>taxontermstatus</title-ref>
+        <title>Taxon Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Person Term status-->
+    <instance id="vocab-persontermstatus">
+        <web-url>persontermstatus</web-url>
+        <title-ref>persontermstatus</title-ref>
+        <title>Person Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Work Term status-->
+    <instance id="vocab-worktermstatus">
+        <web-url>worktermstatus</web-url>
+        <title-ref>worktermstatus</title-ref>
+        <title>Work Term Status</title>
+        <options>
+            <option id="provisional" default="yes">Provisional</option>
+            <option id="under review">Under Review</option>
+            <option id="accepted">Accepted</option>
+            <option id="rejected">Rejected</option>
+            <option id="quickaddedneedsattention">Quick Added, needs attention</option>
+            <option id="inprogress">In Progress</option>
+            <option id="complete">Complete</option>
+        </options>
+    </instance>
+
+    <!--Place Term type-->
+    <instance id="vocab-placetermtype">
+        <web-url>placetermtype</web-url>
+        <title-ref>placetermtype</title-ref>
+        <title>Place Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Taxon Term type-->
+    <instance id="vocab-taxontermtype">
+        <web-url>taxontermtype</web-url>
+        <title-ref>taxontermtype</title-ref>
+        <title>Taxon Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Org Term type-->
+    <instance id="vocab-organizationtermtype">
+        <web-url>organizationtermtype</web-url>
+        <title-ref>organizationtermtype</title-ref>
+        <title>Organization Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Person Term type-->
+    <instance id="vocab-persontermtype">
+        <web-url>persontermtype</web-url>
+        <title-ref>persontermtype</title-ref>
+        <title>Person Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Work Term type-->
+    <instance id="vocab-worktermtype">
+        <web-url>worktermtype</web-url>
+        <title-ref>worktermtype</title-ref>
+        <title>Work Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Location Term type-->
+    <instance id="vocab-locationtermtype">
+        <web-url>locationtermtype</web-url>
+        <title-ref>locationtermtype</title-ref>
+        <title>Location Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Concept Term type-->
+    <instance id="vocab-concepttermtype">
+        <web-url>concepttermtype</web-url>
+        <title-ref>concepttermtype</title-ref>
+        <title>Concept Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Material Term type-->
+    <instance id="vocab-materialtermtype">
+        <web-url>materialtermtype</web-url>
+        <title-ref>materialtermtype</title-ref>
+        <title>Material Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Term type-->
+    <instance id="vocab-termtype">
+        <web-url>termtype</web-url>
+        <title-ref>termtype</title-ref>
+        <title>Term Type</title>
+        <options>
+            <option id="descriptor">Descriptor</option>
+            <option id="alternate descriptor">Alternate Descriptor</option>
+            <option id="used for term">Used for Term</option>
+            <option id="common">Common name</option>
+            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="native">Native name</option>
+            <option id="non-native">Non-native name</option>
+            <option id="local">Local name</option>
+            <option id="descriptive">Descriptive name</option>
+            <option id="spelling-variant">Spelling variant</option>
+        </options>
+    </instance>
+
+    <!--Historical status-->
+    <instance id="vocab-historicalstatus">
+        <web-url>historicalstatus</web-url>
+        <title-ref>historicalstatus</title-ref>
+        <title>Historical Status</title>
+        <options>
+            <option id="current" default="yes">Current</option>
+            <option id="historical">Historical</option>
+            <option id="both">Both</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
+
+    <!--Email Type-->
+    <instance id="vocab-emailtype">
+        <web-url>emailtype</web-url>
+        <title-ref>emailtype</title-ref>
+        <title>Email Type</title>
+        <options>
+            <option id="business">business</option>
+            <option id="personal">personal</option>
+            <option id="other">other</option>
+        </options>
+    </instance>
+
+    <!--Web Address Type-->
+    <instance id="vocab-webaddresstype">
+        <web-url>webaddresstype</web-url>
+        <title-ref>webaddresstype</title-ref>
+        <title>Web Address Type</title>
+        <options>
+            <option id="business">business</option>
+            <option id="personal">personal</option>
+            <option id="other">other</option>
+        </options>
+    </instance>
+
+    <!--Telephone Number Type-->
+    <instance id="vocab-telephonenumbertype">
+        <web-url>telephonenumbertype</web-url>
+        <title-ref>telephonenumbertype</title-ref>
+        <title>Telephone Number Type</title>
+        <options>
+            <option id="business">business</option>
+            <option id="home">home</option>
+            <option id="mobile">mobile</option>
+            <option id="other">other</option>
+        </options>
+    </instance>
+
+    <!--Fax Number Type-->
+    <instance id="vocab-faxnumbertype">
+        <web-url>faxnumbertype</web-url>
+        <title-ref>faxnumbertype</title-ref>
+        <title>Fax Number Type</title>
+        <options>
+            <option id="business">business</option>
+            <option id="home">home</option>
+            <option id="other">other</option>
+        </options>
+    </instance>
+
+    <!--Address Country-->
+    <!-- Options conform to ISO-3166-1 List of Countries Codes, available free of charge for "non-commercial purposes."
+    See http://www.iso.org/iso/country_codes.htm and
+    http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements_txt.htm -->
+
+    <instance id="vocab-addresscountry">
+        <web-url>addresscountry</web-url>
+        <title-ref>addresscountry</title-ref>
+        <title>Address Country</title>
+        <options>
+            <option id="AF">AFGHANISTAN</option>
+            <option id="AX">ÅLAND ISLANDS</option>
+            <option id="AL">ALBANIA</option>
+            <option id="DZ">ALGERIA</option>
+            <option id="AS">AMERICAN SAMOA</option>
+            <option id="AD">ANDORRA</option>
+            <option id="AO">ANGOLA</option>
+            <option id="AI">ANGUILLA</option>
+            <option id="AQ">ANTARCTICA</option>
+            <option id="AG">ANTIGUA AND BARBUDA</option>
+            <option id="AR">ARGENTINA</option>
+            <option id="AM">ARMENIA</option>
+            <option id="AW">ARUBA</option>
+            <option id="AU">AUSTRALIA</option>
+            <option id="AT">AUSTRIA</option>
+            <option id="AZ">AZERBAIJAN</option>
+            <option id="BS">BAHAMAS</option>
+            <option id="BH">BAHRAIN</option>
+            <option id="BD">BANGLADESH</option>
+            <option id="BB">BARBADOS</option>
+            <option id="BY">BELARUS</option>
+            <option id="BE">BELGIUM</option>
+            <option id="BZ">BELIZE</option>
+            <option id="BJ">BENIN</option>
+            <option id="BM">BERMUDA</option>
+            <option id="BT">BHUTAN</option>
+            <option id="BO">BOLIVIA, PLURINATIONAL STATE OF</option>
+            <option id="BQ">BONAIRE, SINT EUSTATIUS AND SABA</option>
+            <option id="BA">BOSNIA AND HERZEGOVINA</option>
+            <option id="BW">BOTSWANA</option>
+            <option id="BV">BOUVET ISLAND</option>
+            <option id="BR">BRAZIL</option>
+            <option id="IO">BRITISH INDIAN OCEAN TERRITORY</option>
+            <option id="BN">BRUNEI DARUSSALAM</option>
+            <option id="BG">BULGARIA</option>
+            <option id="BF">BURKINA FASO</option>
+            <option id="BI">BURUNDI</option>
+            <option id="KH">CAMBODIA</option>
+            <option id="CM">CAMEROON</option>
+            <option id="CA">CANADA</option>
+            <option id="CV">CAPE VERDE</option>
+            <option id="KY">CAYMAN ISLANDS</option>
+            <option id="CF">CENTRAL AFRICAN REPUBLIC</option>
+            <option id="TD">CHAD</option>
+            <option id="CL">CHILE</option>
+            <option id="CN">CHINA</option>
+            <option id="CX">CHRISTMAS ISLAND</option>
+            <option id="CC">COCOS (KEELING) ISLANDS</option>
+            <option id="CO">COLOMBIA</option>
+            <option id="KM">COMOROS</option>
+            <option id="CG">CONGO</option>
+            <option id="CD">CONGO, THE DEMOCRATIC REPUBLIC OF THE</option>
+            <option id="CK">COOK ISLANDS</option>
+            <option id="CR">COSTA RICA</option>
+            <option id="CI">CÔTE D’IVOIRE</option>
+            <option id="HR">CROATIA</option>
+            <option id="CU">CUBA</option>
+            <option id="CW">CURAÇAO</option>
+            <option id="CY">CYPRUS</option>
+            <option id="CZ">CZECH REPUBLIC</option>
+            <option id="DK">DENMARK</option>
+            <option id="DJ">DJIBOUTI</option>
+            <option id="DM">DOMINICA</option>
+            <option id="DO">DOMINICAN REPUBLIC</option>
+            <option id="EC">ECUADOR</option>
+            <option id="EG">EGYPT</option>
+            <option id="SV">EL SALVADOR</option>
+            <option id="GQ">EQUATORIAL GUINEA</option>
+            <option id="ER">ERITREA</option>
+            <option id="EE">ESTONIA</option>
+            <option id="ET">ETHIOPIA</option>
+            <option id="FK">FALKLAND ISLANDS (MALVINAS)</option>
+            <option id="FO">FAROE ISLANDS</option>
+            <option id="FJ">FIJI</option>
+            <option id="FI">FINLAND</option>
+            <option id="FR">FRANCE</option>
+            <option id="GF">FRENCH GUIANA</option>
+            <option id="PF">FRENCH POLYNESIA</option>
+            <option id="TF">FRENCH SOUTHERN TERRITORIES</option>
+            <option id="GA">GABON</option>
+            <option id="GM">GAMBIA</option>
+            <option id="GE">GEORGIA</option>
+            <option id="DE">GERMANY</option>
+            <option id="GH">GHANA</option>
+            <option id="GI">GIBRALTAR</option>
+            <option id="GR">GREECE</option>
+            <option id="GL">GREENLAND</option>
+            <option id="GD">GRENADA</option>
+            <option id="GP">GUADELOUPE</option>
+            <option id="GU">GUAM</option>
+            <option id="GT">GUATEMALA</option>
+            <option id="GG">GUERNSEY</option>
+            <option id="GN">GUINEA</option>
+            <option id="GW">GUINEA-BISSAU</option>
+            <option id="GY">GUYANA</option>
+            <option id="HT">HAITI</option>
+            <option id="HM">HEARD ISLAND AND MCDONALD ISLANDS</option>
+            <option id="VA">HOLY SEE (VATICAN CITY STATE)</option>
+            <option id="HN">HONDURAS</option>
+            <option id="HK">HONG KONG</option>
+            <option id="HN">HUNGARY</option>
+            <option id="IS">ICELAND</option>
+            <option id="IN">INDIA</option>
+            <option id="ID">INDONESIA</option>
+            <option id="IR">IRAN, ISLAMIC REPUBLIC OF</option>
+            <option id="IQ">IRAQ</option>
+            <option id="IE">IRELAND</option>
+            <option id="IM">ISLE OF MAN</option>
+            <option id="IL">ISRAEL</option>
+            <option id="IT">ITALY</option>
+            <option id="JM">JAMAICA</option>
+            <option id="JP">JAPAN</option>
+            <option id="JE">JERSEY</option>
+            <option id="JO">JORDAN</option>
+            <option id="KZ">KAZAKHSTAN</option>
+            <option id="KE">KENYA</option>
+            <option id="KI">KIRIBATI</option>
+            <option id="KP">KOREA, DEMOCRATIC PEOPLE’S REPUBLIC OF</option>
+            <option id="KR">KOREA, REPUBLIC OF</option>
+            <option id="KW">KUWAIT</option>
+            <option id="KG">KYRGYZSTAN</option>
+            <option id="LA">LAO PEOPLE’S DEMOCRATIC REPUBLIC</option>
+            <option id="LV">LATVIA</option>
+            <option id="LB">LEBANON</option>
+            <option id="LS">LESOTHO</option>
+            <option id="LR">LIBERIA</option>
+            <option id="LY">LIBYA</option>
+            <option id="LI">LIECHTENSTEIN</option>
+            <option id="LT">LITHUANIA</option>
+            <option id="LU">LUXEMBOURG</option>
+            <option id="MO">MACAO</option>
+            <option id="MK">MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
+            <option id="MG">MADAGASCAR</option>
+            <option id="MW">MALAWI</option>
+            <option id="MY">MALAYSIA</option>
+            <option id="MV">MALDIVES</option>
+            <option id="ML">MALI</option>
+            <option id="MT">MALTA</option>
+            <option id="MH">MARSHALL ISLANDS</option>
+            <option id="MQ">MARTINIQUE</option>
+            <option id="MR">MAURITANIA</option>
+            <option id="MU">MAURITIUS</option>
+            <option id="YT">MAYOTTE</option>
+            <option id="MX">MEXICO</option>
+            <option id="FM">MICRONESIA, FEDERATED STATES OF</option>
+            <option id="MD">MOLDOVA, REPUBLIC OF</option>
+            <option id="MC">MONACO</option>
+            <option id="MN">MONGOLIA</option>
+            <option id="ME">MONTENEGRO</option>
+            <option id="MS">MONTSERRAT</option>
+            <option id="MA">MOROCCO</option>
+            <option id="MZ">MOZAMBIQUE</option>
+            <option id="MM">MYANMAR</option>
+            <option id="NA">NAMIBIA</option>
+            <option id="NR">NAURU</option>
+            <option id="NP">NEPAL</option>
+            <option id="NL">NETHERLANDS</option>
+            <option id="NC">NEW CALEDONIA</option>
+            <option id="NZ">NEW ZEALAND</option>
+            <option id="NI">NICARAGUA</option>
+            <option id="NE">NIGER</option>
+            <option id="NG">NIGERIA</option>
+            <option id="NU">NIUE</option>
+            <option id="NF">NORFOLK ISLAND</option>
+            <option id="MP">NORTHERN MARIANA ISLANDS</option>
+            <option id="NO">NORWAY</option>
+            <option id="OM">OMAN</option>
+            <option id="PK">PAKISTAN</option>
+            <option id="PW">PALAU</option>
+            <option id="PS">PALESTINIAN TERRITORY, OCCUPIED</option>
+            <option id="PA">PANAMA</option>
+            <option id="PG">PAPUA NEW GUINEA</option>
+            <option id="PY">PARAGUAY</option>
+            <option id="PE">PERU</option>
+            <option id="PH">PHILIPPINES</option>
+            <option id="PN">PITCAIRN</option>
+            <option id="PL">POLAND</option>
+            <option id="PT">PORTUGAL</option>
+            <option id="PR">PUERTO RICO</option>
+            <option id="QA">QATAR</option>
+            <option id="RE">RÉUNION</option>
+            <option id="RO">ROMANIA</option>
+            <option id="RU">RUSSIAN FEDERATION</option>
+            <option id="RW">RWANDA</option>
+            <option id="BL">SAINT BARTHÉLEMY</option>
+            <option id="SH">SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA</option>
+            <option id="KN">SAINT KITTS AND NEVIS</option>
+            <option id="LC">SAINT LUCIA</option>
+            <option id="MF">SAINT MARTIN (FRENCH PART)</option>
+            <option id="PM">SAINT PIERRE AND MIQUELON</option>
+            <option id="VC">SAINT VINCENT AND THE GRENADINES</option>
+            <option id="WS">SAMOA</option>
+            <option id="SM">SAN MARINO</option>
+            <option id="ST">SAO TOME AND PRINCIPE</option>
+            <option id="SA">SAUDI ARABIA</option>
+            <option id="SN">SENEGAL</option>
+            <option id="RS">SERBIA</option>
+            <option id="SC">SEYCHELLES</option>
+            <option id="SL">SIERRA LEONE</option>
+            <option id="SG">SINGAPORE</option>
+            <option id="SX">SINT MAARTEN (DUTCH PART)</option>
+            <option id="SK">SLOVAKIA</option>
+            <option id="SI">SLOVENIA</option>
+            <option id="SB">SOLOMON ISLANDS</option>
+            <option id="SO">SOMALIA</option>
+            <option id="ZA">SOUTH AFRICA</option>
+            <option id="GS">SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</option>
+            <option id="SS">SOUTH SUDAN</option>
+            <option id="ES">SPAIN</option>
+            <option id="LK">SRI LANKA</option>
+            <option id="SD">SUDAN</option>
+            <option id="SR">SURINAME</option>
+            <option id="SJ">SVALBARD AND JAN MAYEN</option>
+            <option id="SZ">SWAZILAND</option>
+            <option id="SE">SWEDEN</option>
+            <option id="CH">SWITZERLAND</option>
+            <option id="SY">SYRIAN ARAB REPUBLIC</option>
+            <option id="TW">TAIWAN, PROVINCE OF CHINA</option>
+            <option id="TJ">TAJIKISTAN</option>
+            <option id="TZ">TANZANIA, UNITED REPUBLIC OF</option>
+            <option id="TH">THAILAND</option>
+            <option id="TL">TIMOR-LESTE</option>
+            <option id="TG">TOGO</option>
+            <option id="TK">TOKELAU</option>
+            <option id="TO">TONGA</option>
+            <option id="TT">TRINIDAD AND TOBAGO</option>
+            <option id="TN">TUNISIA</option>
+            <option id="TR">TURKEY</option>
+            <option id="TM">TURKMENISTAN</option>
+            <option id="TC">TURKS AND CAICOS ISLANDS</option>
+            <option id="TV">TUVALU</option>
+            <option id="UG">UGANDA</option>
+            <option id="UA">UKRAINE</option>
+            <option id="AE">UNITED ARAB EMIRATES</option>
+            <option id="GB">UNITED KINGDOM</option>
+            <option id="US">UNITED STATES</option>
+            <option id="UM">UNITED STATES MINOR OUTLYING ISLANDS</option>
+            <option id="UY">URUGUAY</option>
+            <option id="UZ">UZBEKISTAN</option>
+            <option id="VU">VANUATU</option>
+            <option id="VE">VENEZUELA, BOLIVARIAN REPUBLIC OF</option>
+            <option id="VN">VIET NAM</option>
+            <option id="VG">VIRGIN ISLANDS, BRITISH</option>
+            <option id="VI">VIRGIN ISLANDS, U.S.</option>
+            <option id="WF">WALLIS AND FUTUNA</option>
+            <option id="EH">WESTERN SAHARA</option>
+            <option id="YE">YEMEN</option>
+            <option id="ZM">ZAMBIA</option>
+            <option id="ZW">ZIMBABWE</option>
+        </options>
+    </instance>
+
+    <!--Address Type-->
+    <instance id="vocab-addresstype">
+        <web-url>addresstype</web-url>
+        <title-ref>addresstype</title-ref>
+        <title>Address Type</title>
+        <options>
+            <option id="business">business</option>
+            <option id="home">home</option>
+            <option id="other">other</option>
+        </options>
+    </instance>
+
+    <!--Dimension-->
+    <instance id="vocab-dimension">
+        <web-url>dimension</web-url>
+        <title-ref>dimension</title-ref>
+        <title>Dimension</title>
+        <options>
+            <option id="area">area</option>
+            <option id="base">base</option>
+            <option id="circumference">circumference</option>
+            <option id="count">count</option>
+            <option id="depth">depth</option>
+            <option id="diameter">diameter</option>
+            <option id="height">height</option>
+            <option id="length">length</option>
+            <option id="running-time">running time</option>
+            <option id="target">target</option>
+            <option id="volume">volume</option>
+            <option id="weight">weight</option>
+            <option id="width">width</option>
+        </options>
+    </instance>
+
+    <!--Measurement Unit-->
+    <instance id="vocab-measurementunit">
+        <web-url>measurementunit</web-url>
+        <title-ref>measurementunit</title-ref>
+        <title>Measurement Unit</title>
+        <options>
+            <option id="carats">carats</option>
+            <option id="centimeters">centimeters</option>
+            <option id="cubic-centimeters">cubic centimeters</option>
+            <option id="feet">feet</option>
+            <option id="inches">inches</option>
+            <option id="kilograms">kilograms</option>
+            <option id="liters">liters</option>
+            <option id="millimeters">millimeters</option>
+            <option id="meters">meters</option>
+            <option id="minutes">minutes</option>
+            <option id="pixels">pixels</option>
+            <option id="pounds">pounds</option>
+            <option id="square-feet">square feet</option>
+            <option id="stories">stories</option>
+            <option id="tons">tons</option>
+        </options>
+    </instance>
+
+    <!--Gender-->
+    <instance id="vocab-gender">
+        <web-url>gender</web-url>
+        <title-ref>gender</title-ref>
+        <title>Gender</title>
+        <options>
+            <option id="male">Male</option>
+            <option id="female">Female</option>
+        </options>
+    </instance>
+
+    <!--Title-->
+    <instance id="vocab-persontitle">
+        <web-url>persontitle</web-url>
+        <title-ref>persontitle</title-ref>
+        <title>Person Title</title>
+        <options>
+            <option id="Mr">Mr</option>
+            <option id="Mrs">Mrs</option>
+            <option id="Ms">Ms</option>
+            <option id="Miss">Miss</option>
+            <option id="Dr">Dr</option>
+            <option id="Professor">Professor</option>
+            <option id="Sir">Sir</option>
+            <option id="Dame">Dame</option>
+            <option id="Baron">Baron</option>
+            <option id="Baroness">Baroness</option>
+            <option id="Lord">Lord</option>
+            <option id="Lady">Lady</option>
+        </options>
+    </instance>
+
+    <!--Salutation-->
+    <instance id="vocab-salutation">
+        <web-url>salutation</web-url>
+        <title-ref>salutation</title-ref>
+        <title>Salutation</title>
+        <options>
+            <option id="dear" default="yes">Dear</option>
+            <option id="hello">Hello</option>
+            <option id="to">To</option>
+        </options>
+    </instance>
+
+    <!--Place Type-->
+    <instance id="vocab-placetype">
+        <web-url>placetype</web-url>
+        <title-ref>placetype</title-ref>
+        <title>Place Type</title>
+        <!-- SOURCE: http://www.getty.edu/research/tools/vocabularies/guidelines/tgn_4_6_appendix_f_place_types.html (this is a subset).
+        Seven additional values have been added: collection-site, country-code, general-region, locality,
+        national-division (in TGN as division-national), state-province and water-body (in TGN as "body of water").
+        Users can easily configure the values as they wish. -->
+        <options>
+            <option id="autonomous-region">Autonomous region</option>
+            <option id="borough">Borough</option>
+            <option id="city">City</option>
+            <option id="collection-site">Collection site</option>
+            <option id="continent">Continent</option>
+            <option id="country">Country</option>
+            <option id="country-code">Country code</option>
+            <option id="county">County</option>
+            <option id="dependent-state">Dependent state</option>
+            <option id="deserted-settlement">Deserted settlement</option>
+            <option id="district-national">District (national)</option>
+            <option id="general-region">General region</option>
+            <option id="governorate">Governorate</option>
+            <option id="inhabited-place">Inhabited place</option>
+            <option id="island">Island</option>
+            <option id="island-group">Island group</option>
+            <option id="locality">Locality</option>
+            <option id="metropolitan-area">Metropolitan area</option>
+            <option id="municipality">Municipality</option>
+            <option id="nation">Nation</option>
+            <option id="national-division">National division</option>
+            <option id="neighborhood">Neighborhood</option>
+            <option id="occupied-territory">Occupied territory</option>
+            <option id="prefecture">Prefecture</option>
+            <option id="province">Province</option>
+            <option id="region">Region</option>
+            <option id="state">State</option>
+            <option id="state-province">State province</option>
+            <option id="territory">Territory</option>
+            <option id="union-territory">Union territory</option>
+            <option id="unitary-authority">Unitary authority</option>
+            <option id="urban-prefecture">Urban prefecture</option>
+            <option id="water-body">Water body</option>
+        </options>
+    </instance>
+
+    <!--vCoordSys-->
+    <instance id="vocab-vcoordsystem">
+        <web-url>vcoordsystem</web-url>
+        <title-ref>vcoordsystem</title-ref>
+        <title>vCoordinate System</title>
+        <options>
+            <option id="altitude-depth">Altitude depth</option>
+            <option id="latitude-longitude">Latitude and longitude</option>
+            <option id="national-grid-reference">National Grid reference</option>
+            <option id="utm">Universal Transverse Mercator (UTM)</option>
+            <!-- The following suggestions come from http://code.google.com/p/darwincore/wiki/Location#Verbatim_Coordinate_Terms;
+            Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#verbatimCoordinateSystem -->
+            <!--<option id="crtm">Costa Rica Transverse Mercator (CRTM)</option>
+            <option id="decimal-degrees">Decimal degrees</option>
+            <option id="degrees-decimal-minutes">Degrees decimal minutes</option>
+            <option id="degrees-minutes-seconds">Degrees minutes seconds</option>-->
+        </options>
+    </instance>
+
+    <!--vSpatialReferenceSystem-->
+    <instance id="vocab-vspatialreferencesystem">
+        <web-url>vspatialreferencesystem</web-url>
+        <title-ref>vspatialreferencesystem</title-ref>
+        <title>vSpatial Reference System</title>
+        <!-- See http://code.google.com/p/darwincore/wiki/Location#verbatimSRS;
+        Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#verbatimSRS -->
+        <options>
+            <option id="epsg4326-wgs84">EPSG:4326-WGS84</option>
+            <option id="epsg4269-nad83">EPSG:4269-NAD83</option>
+            <option id="epsg4267-nad27">EPSG:4267-NAD27</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
+
+    <!--vUnitofMeasure-->
+    <instance id="vocab-vunitofmeasure">
+        <web-url>vunitofmeasure</web-url>
+        <title-ref>vunitofmeasure</title-ref>
+        <title>vUnit Of Measure</title>
+        <!-- Adapted from set of options in Dimensions group -->
+        <options>
+            <option id="acres">acres</option>
+            <option id="centimeters">centimeters</option>
+            <option id="feet">feet</option>
+            <option id="hectares">hectares</option>
+            <option id="inches">inches</option>
+            <option id="kilometers">kilometers</option>
+            <option id="meters">meters</option>
+            <option id="miles">miles</option>
+            <option id="millimeters">millimeters</option>
+            <option id="square-feet">square feet</option>
+            <option id="square-meters">square meters</option>
+            <option id="square-yards">square yards</option>
+            <option id="stories">stories</option>
+        </options>
+    </instance>
+
+    <!--Geodetic Datum-->
+    <instance id="vocab-geodeticdatum">
+        <web-url>geodeticdatum</web-url>
+        <title-ref>geodeticdatum</title-ref>
+        <title>Geodetic Datum</title>
+        <!-- See http://code.google.com/p/darwincore/wiki/Location#geodeticDatum;
+        Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#geodeticDatum -->
+        <options>
+            <option id="epsg4326-wgs84">EPSG:4326-WGS84</option>
+            <option id="epsg4269-nad83">EPSG:4269-NAD83</option>
+            <option id="epsg4267-nad27">EPSG:4267-NAD27</option>
+            <option id="unknown">Unknown</option>
+        </options>
+    </instance>
+
+    <!--Geo Ref Protocol-->
+    <instance id="vocab-georefprotocol">
+        <web-url>georefprotocol</web-url>
+        <title-ref>georefprotocol</title-ref>
+        <title>Geo Ref Protocol</title>
+        <!-- See http://code.google.com/p/darwincore/wiki/Location#georeferenceProtocol;
+        Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#georeferenceProtocol -->
+        <options>
+            <option id="chapman-wieczorek-2006-guide-best-practices-georeferencing">Chapman,
+                Wieczorek 2006, Guide to Best Practices for Georeferencing
+            </option>
+            <option id="manis-herpnet-ornis-georeferencing-guidelines">MaNIS/HerpNet/ORNIS
+                Georeferencing Guidelines
+            </option>
+            <option id="georeferencing-dummies">Georeferencing For Dummies</option>
+            <option id="biogeomancer">BioGeomancer</option>
+        </options>
+    </instance>
+
+    <!--Geo Ref Verification Status-->
+    <instance id="vocab-georefverificationstatus">
+        <web-url>georefverificationstatus</web-url>
+        <title-ref>georefverificationstatus</title-ref>
+        <title>Geo Ref Verification Status</title>
+        <!-- See http://code.google.com/p/darwincore/wiki/Location#georeferenceVerificationStatus;
+        Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#georeferenceVerificationStatus -->
+        <options>
+            <option id="unverified">Unverified</option>
+            <option id="verified-data-custodian">Verified by data custodian</option>
+            <option id="verified-contributor">Verified by contributor</option>
+        </options>
+    </instance>
+
+    <!--Taxon Rank-->
+    <instance id="vocab-taxonrank">
+        <web-url>taxonrank</web-url>
+        <title-ref>taxonrank</title-ref>
+        <title>Taxon Rank</title>
+        <options>
+            <option id="domain">Domain</option>
+            <option id="kingdom">Kingdom</option>
+            <option id="phylum">Phylum</option>
+            <option id="division">Division</option>
+            <option id="family">Family</option>
+            <option id="class">Class</option>
+            <option id="order">Order</option>
+            <option id="genus">Genus</option>
+            <option id="species">Species</option>
+        </options>
+    </instance>
+
+    <!--Taxon Currency-->
+    <instance id="vocab-taxoncurrency">
+        <web-url>taxoncurrency</web-url>
+        <title-ref>taxoncurrency</title-ref>
+        <title>Taxon Currency</title>
+        <options>
+            <option id="current">Current</option>
+            <option id="obsolete">Obsolete</option>
+            <option id="archaic">Archaic</option>
+        </options>
+    </instance>
+
+    <!--Taxon Author Type-->
+    <instance id="vocab-taxonauthortype">
+        <web-url>taxonauthortype</web-url>
+        <title-ref>taxonauthortype</title-ref>
+        <title>Taxon Author Type</title>
+        <options>
+            <option id="ascribed">Ascribed</option>
+            <option id="parenthetical">Parenthetical</option>
+        </options>
+    </instance>
+
+    <!--Taxonomic Status-->
+    <instance id="vocab-taxonomicstatus">
+        <web-url>taxonomicstatus</web-url>
+        <title-ref>taxonomicstatus</title-ref>
+        <title>Taxonomic Status</title>
+        <options>
+            <option id="valid">Valid</option>
+            <option id="invalid">Invalid</option>
+            <option id="accepted">Accepted</option>
+            <option id="misapplied name">Misapplied Name</option>
+        </options>
+    </instance>
+
+
 
 </instances>

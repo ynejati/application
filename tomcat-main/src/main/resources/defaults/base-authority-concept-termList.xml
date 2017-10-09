@@ -12,27 +12,21 @@
             <field id="termName" ui-search="repeatable">
                 <selector>conceptAuthority-termName</selector>
             </field>
-            <field id="termType">
+            <field id="termType" autocomplete="vocab-concepttermtype" ui-type="enum">
                 <selector>conceptAuthority-termType</selector>
-                <options>
-                    <option id="">Please select a value</option>
-                    <option id="descriptor">Descriptor</option>
-                    <option id="alternate descriptor">Alternate Descriptor</option>
-                    <option id="used for term">Used for Term</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-concepttermflag" ui-type="enum">
                 <selector>conceptAuthority-termFlag</selector>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
-                mini="search,list,relate">
+                mini="search,list,relate" autocomplete="vocab-concepttermstatus" ui-type="enum">
                 <selector>conceptAuthority-termStatus</selector>
-                <options>
-                    <option id="provisional" default="yes">Provisional</option>
-                    <option id="under review">Under Review</option>
-                    <option id="accepted">Accepted</option>
-                    <option id="rejected">Rejected</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termQualifier">
                 <selector>conceptAuthority-termQualifier</selector>

@@ -61,47 +61,10 @@
             <selector>preferred-placeAuthority</selector>
         </field>
         <field id="placeID"></field>
-        <field id="placeType" ui-search="repeatable">
-            <!-- SOURCE: http://www.getty.edu/research/tools/vocabularies/guidelines/tgn_4_6_appendix_f_place_types.html (this is a subset).
-            Seven additional values have been added: collection-site, country-code, general-region, locality,
-            national-division (in TGN as division-national), state-province and water-body (in TGN as "body of water").
-            Users can easily configure the values as they wish. -->
-            <options>
-                <option id="" default="yes">Please select a value</option>
-                <option id="autonomous-region">Autonomous region</option>
-                <option id="borough">Borough</option>
-                <option id="city">City</option>
-                <option id="collection-site">Collection site</option>
-                <option id="continent">Continent</option>
-                <option id="country">Country</option>
-                <option id="country-code">Country code</option>
-                <option id="county">County</option>
-                <option id="dependent-state">Dependent state</option>
-                <option id="deserted-settlement">Deserted settlement</option>
-                <option id="district-national">District (national)</option>
-                <option id="general-region">General region</option>
-                <option id="governorate">Governorate</option>
-                <option id="inhabited-place">Inhabited place</option>
-                <option id="island">Island</option>
-                <option id="island-group">Island group</option>
-                <option id="locality">Locality</option>
-                <option id="metropolitan-area">Metropolitan area</option>
-                <option id="municipality">Municipality</option>
-                <option id="nation">Nation</option>
-                <option id="national-division">National division</option>
-                <option id="neighborhood">Neighborhood</option>
-                <option id="occupied-territory">Occupied territory</option>
-                <option id="prefecture">Prefecture</option>
-                <option id="province">Province</option>
-                <option id="region">Region</option>
-                <option id="state">State</option>
-                <option id="state-province">State province</option>
-                <option id="territory">Territory</option>
-                <option id="union-territory">Union territory</option>
-                <option id="unitary-authority">Unitary authority</option>
-                <option id="urban-prefecture">Urban prefecture</option>
-                <option id="water-body">Water body</option>
-            </options>
+        <field id="placeType" ui-search="repeatable" autocomplete="vocab-placetype" ui-type="enum">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
         </field>
         <field id="placeSource"></field>
         <field id="placeNote" ui-search="repeatable"/>
@@ -120,52 +83,22 @@
         <field id="vCoordinates"/>
         <field id="vLatitude"/>
         <field id="vLongitude"/>
-        <field id="vCoordSys">
-            <options>
-                <option id="" default="yes">Please select a value</option>
-                <option id="altitude-depth">Altitude depth</option>
-                <option id="latitude-longitude">Latitude and longitude</option>
-                <option id="national-grid-reference">National Grid reference</option>
-                <option id="utm">Universal Transverse Mercator (UTM)</option>
-                <!-- The following suggestions come from http://code.google.com/p/darwincore/wiki/Location#Verbatim_Coordinate_Terms;
-                Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#verbatimCoordinateSystem -->
-                <!--<option id="crtm">Costa Rica Transverse Mercator (CRTM)</option>
-                <option id="decimal-degrees">Decimal degrees</option>
-                <option id="degrees-decimal-minutes">Degrees decimal minutes</option>
-                <option id="degrees-minutes-seconds">Degrees minutes seconds</option>-->
-            </options>
+        <field id="vCoordSys" autocomplete="vocab-vcoordsystem" ui-type="enum">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
         </field>
-        <field id="vSpatialReferenceSystem">
-            <!-- See http://code.google.com/p/darwincore/wiki/Location#verbatimSRS;
-            Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#verbatimSRS -->
-            <options>
-                <option id="" default="yes">Please select a value</option>
-                <option id="epsg4326-wgs84">EPSG:4326-WGS84</option>
-                <option id="epsg4269-nad83">EPSG:4269-NAD83</option>
-                <option id="epsg4267-nad27">EPSG:4267-NAD27</option>
-                <option id="unknown">Unknown</option>
-            </options>
+        <field id="vSpatialReferenceSystem" ui-type="enum" autocomplete="vocab-vspatialreferencesystem">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
         </field>
         <field id="vCoordSource"/>
         <field id="vCoordSourceRefId"/>
-        <field id="vUnitofMeasure">
-            <!-- Adapted from set of options in Dimensions group -->
-            <options>
-                <option id="">Please select a value</option>
-                <option id="acres">acres</option>
-                <option id="centimeters">centimeters</option>
-                <option id="feet">feet</option>
-                <option id="hectares">hectares</option>
-                <option id="inches">inches</option>
-                <option id="kilometers">kilometers</option>
-                <option id="meters">meters</option>
-                <option id="miles">miles</option>
-                <option id="millimeters">millimeters</option>
-                <option id="square-feet">square feet</option>
-                <option id="square-meters">square meters</option>
-                <option id="square-yards">square yards</option>
-                <option id="stories">stories</option>
-            </options>
+        <field id="vUnitofMeasure" ui-type="enum" autocomplete="vunitofmeasure">
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
         </field>
         <field id="vElevation"/>
         <field id="minElevationInMeters" ui-type="validated" datatype="float"/>
@@ -181,16 +114,10 @@
         <repeat id="placeGeoRefGroupList/placeGeoRefGroup">
             <field id="decimalLatitude" ui-type="validated" datatype="float"/>
             <field id="decimalLongitude" ui-type="validated" datatype="float"/>
-            <field id="geodeticDatum">
-                <!-- See http://code.google.com/p/darwincore/wiki/Location#geodeticDatum;
-                Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#geodeticDatum -->
-                <options>
-                    <option id="" default="yes">Please select a value</option>
-                    <option id="epsg4326-wgs84">EPSG:4326-WGS84</option>
-                    <option id="epsg4269-nad83">EPSG:4269-NAD83</option>
-                    <option id="epsg4267-nad27">EPSG:4267-NAD27</option>
-                    <option id="unknown">Unknown</option>
-                </options>
+            <field id="geodeticDatum" ui-type="enum" autocomplete="vocab-geodeticdatum">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="coordUncertaintyInMeters" ui-type="validated" datatype="integer"/>
             <field id="coordPrecision"/>
@@ -201,31 +128,16 @@
             <field id="geoReferencedBy" autocomplete="person-person,person-person_shared,organization-organization,organization-organization_shared"/>
             <group id="geoRefDateGroup" ui-type="groupfield/structureddate"
                    primarykey="dateDisplayDate" ui-func="cspace.structuredDate"/>
-            <field id="geoRefProtocol">
-                <!-- See http://code.google.com/p/darwincore/wiki/Location#georeferenceProtocol;
-                Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#georeferenceProtocol -->
-                <options>
-                    <option id="" default="yes">Please select a value</option>
-                    <option id="chapman-wieczorek-2006-guide-best-practices-georeferencing">Chapman,
-                        Wieczorek 2006, Guide to Best Practices for Georeferencing
-                    </option>
-                    <option id="manis-herpnet-ornis-georeferencing-guidelines">MaNIS/HerpNet/ORNIS
-                        Georeferencing Guidelines
-                    </option>
-                    <option id="georeferencing-dummies">Georeferencing For Dummies</option>
-                    <option id="biogeomancer">BioGeomancer</option>
-                </options>
+            <field id="geoRefProtocol" ui-type="enum" autocomplete="georefprotocol">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="geoRefSource"/>
-            <field id="geoRefVerificationStatus">
-                <!-- See http://code.google.com/p/darwincore/wiki/Location#georeferenceVerificationStatus;
-                Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#georeferenceVerificationStatus -->
-                <options>
-                    <option id="" default="yes">Please select a value</option>
-                    <option id="unverified">Unverified</option>
-                    <option id="verified-data-custodian">Verified by data custodian</option>
-                    <option id="verified-contributor">Verified by contributor</option>
-                </options>
+            <field id="geoRefVerificationStatus" ui-type="enum" autocomplete="vocab-georefverificationstatus">
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="geoRefRemarks"/>
             <field id="geoRefPlaceName"/>

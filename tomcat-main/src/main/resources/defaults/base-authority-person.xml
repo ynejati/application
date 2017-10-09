@@ -92,13 +92,11 @@
                 <selector>personAuthority-nationality</selector>
             </field>
         </repeat>
-        <field id="gender" ui-search="repeatable" seperate_ui_container="true">
+        <field id="gender" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-gender" ui-type="enum">
             <selector>personAuthority-gender</selector>
-            <options>
-                <option id="" default="yes">Please select a value</option>
-                <option id="male">Male</option>
-                <option id="female">Female</option>
-            </options>
+            <enum>
+                <blank-value>Please select a value</blank-value>
+            </enum>
         </field>
         <repeat id="occupations">
             <selector>personAuthority-occupation</selector>

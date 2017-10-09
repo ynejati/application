@@ -12,24 +12,18 @@
             <field id="termName" ui-search="repeatable">
                 <selector>materialAuthority-termName</selector>
             </field>
-            <field id="termType">
+            <field id="termType" autocomplete="vocab-materialtermtype" ui-type="enum">
                 <selector>materialAuthority-termType</selector>
-                <options>
-                    <option id="">Please select a value</option>
-                    <option id="descriptor">Descriptor</option>
-                    <option id="alternate descriptor">Alternate Descriptor</option>
-                    <option id="used for term">Used for Term</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
-                mini="search,list,relate">
+                mini="search,list,relate" autocomplete="vocab-materialtermstatus" ui-type="enum">
                 <selector>materialAuthority-termStatus</selector>
-                <options>
-                    <option id="provisional" default="yes">Provisional</option>
-                    <option id="under review">Under Review</option>
-                    <option id="accepted">Accepted</option>
-                    <option id="rejected">Rejected</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
             <field id="termFlag" ui-search="repeatable" autocomplete="vocab-materialtermflag" ui-type="enum">
                 <selector>materialAuthority-termFlag</selector>
@@ -61,12 +55,9 @@
             <!-- Fields specific to Material terms -->
             <field id="historicalStatus">
                 <selector>materialAuthority-historicalStatus</selector>
-                <options>
-                    <option id="current" default="yes">Current</option>
-                    <option id="historical">Historical</option>
-                    <option id="both">Both</option>
-                    <option id="unknown">Unknown</option>
-                </options>
+                <enum>
+                    <blank-value>Please select a value</blank-value>
+                </enum>
             </field>
         </repeat>
     </section>

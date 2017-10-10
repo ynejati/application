@@ -1,5 +1,6 @@
 <instances>
     <include src="domain-instance-vocabularies.xml" strip-root="yes"/>
+    <include src="bcm-instance-vocabularies.xml" strip-root="yes"/>
     <instance id="vocab-inventorystatus">
         <web-url>inventorystatus</web-url>
         <title-ref>inventorystatus</title-ref>

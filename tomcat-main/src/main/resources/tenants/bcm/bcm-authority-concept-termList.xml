@@ -4,23 +4,14 @@
         <repeat id="conceptTermGroupList/conceptTermGroup">
             <field id="termType" autocomplete="vocab-concepttermtype" ui-type="enum">
                 <selector>conceptAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
                 mini="search,list,relate" autocomplete="vocab-concepttermstatus" ui-type="enum">
                 <selector>conceptAuthority-termStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <!-- Fields specific to Concept terms -->
             <field id="historicalStatus" ui-type="enum" autocomplete="vocab-historicalstatus">
                 <selector>conceptAuthority-historicalStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
     </section>

@@ -9,16 +9,10 @@
         <repeat id="exitMethods">
             <field id="exitMethod" ui-search="repeatable" autocomplete="vocab-exitmethods" ui-type="enum">
                 <selector>objectexit-exitMethods</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
         <field id="exitReason" ui-search="repeatable" autocomplete="vocab-exitreason" ui-type="enum">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
 

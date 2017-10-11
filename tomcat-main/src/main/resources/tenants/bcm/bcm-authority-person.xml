@@ -3,9 +3,6 @@
         <field id="gender" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-gender"
                ui-type="enum">
             <selector>personAuthority-gender</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
 </record>

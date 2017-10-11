@@ -4,23 +4,13 @@
         <repeat id="placeTermGroupList/placeTermGroup">
             <field id="termType" seperate_ui_container="true" autocomplete="vocab-placetermtype" ui-type="enum">
                 <selector>placeAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
-            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
-                   mini="search,list,relate" ui-type="enum" autocomplete="vocab-placetermstatus">
+            <field id="termStatus" ui-search="repeatable" seperate_ui_container="true" mini="search,list,relate" ui-type="enum" autocomplete="vocab-placetermstatus">
                 <selector>placeAuthority-termStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <!-- Fields specific to Place terms -->
             <field id="historicalStatus" autocomplete="vocab-historicalstatus" ui-type="enum">
                 <selector>placeAuthority-historicalStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
     </section>

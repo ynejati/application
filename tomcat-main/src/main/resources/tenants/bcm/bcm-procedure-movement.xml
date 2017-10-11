@@ -6,25 +6,16 @@
 
     <section id="locationMovementInformation">
         <field id="currentLocationFitness" autocomplete="vocab-currentlocationfitness" ui-type="enum">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
     <section id="movementControlInformation">
 
         <field id="reasonForMove" ui-search="repeatable" autocomplete="vocab-reasonformove" ui-type="enum">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
         <repeat id="movementMethods">
 
             <field id="movementMethod" ui-search="repeatable" autocomplete="vocab-movementmethods" ui-type="enum">
                 <selector>movement-movementMethods</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
 
         </repeat>
@@ -33,16 +24,10 @@
 
         <field id="inventoryActionRequired" ui-search="repeatable" autocomplete="vocab-inventoryactionrequired"
                ui-type="enum">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <field id="frequencyForInventory" ui-search="repeatable" autocomplete="vocab-frequencyforinventory"
                ui-type="enum">
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
 

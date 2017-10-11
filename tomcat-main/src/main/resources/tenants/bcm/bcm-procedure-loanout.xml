@@ -7,9 +7,6 @@
         <field id="loanPurpose" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-loanpurpose"
                ui-type="enum">
             <selector>loanOut-loanPurpose</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
 </record>

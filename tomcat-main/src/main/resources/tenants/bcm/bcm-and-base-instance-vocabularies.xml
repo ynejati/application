@@ -1188,7 +1188,7 @@
         </options>
     </instance>
 
-    <!-- BEGIN BCM CONFIGURATIONS -->
+    <!--BEGIN BCM CONFIGURATIONS-->
 
     <!--Collection-->
     <instance id="vocab-collection">
@@ -1363,8 +1363,8 @@
         <title-ref>technicalattribute</title-ref>
         <title>Technical Attribute</title>
         <options>
-            <option id="magnetic-tape-type">magnetic tape type</option>
-            <option id="record-speed">record speed</option>
+            <option id="magnetic_tape_type">magnetic tape type</option>
+            <option id="record_speed">record speed</option>
         </options>
     </instance>
 
@@ -1427,13 +1427,13 @@
         <title-ref>contentscript</title-ref>
         <title>Content Scripts</title>
         <options>
-            <option id="carolingian-miniscule">Carolingian miniscule</option>
-            <option id="gothic-script">Gothic script</option>
-            <option id="palmer-method">Palmer method</option>
-            <option id="roman-cursive">Roman cursive</option>
-            <option id="rustic-capitals">rustic capitals</option>
-            <option id="spencerian-method">Spencerian method</option>
-            <option id="square-capitals">square capitals</option>
+            <option id="carolingian_miniscule">Carolingian miniscule</option>
+            <option id="gothic_script">Gothic script</option>
+            <option id="palmer_method">Palmer method</option>
+            <option id="roman_cursive">Roman cursive</option>
+            <option id="rustic_capitals">rustic capitals</option>
+            <option id="spencerian_method">Spencerian method</option>
+            <option id="square_capitals">square capitals</option>
         </options>
     </instance>
 
@@ -1464,13 +1464,13 @@
         <title-ref>inscriptioncontentscript</title-ref>
         <title>Inscription Content Script</title>
         <options>
-            <option id="carolingian-miniscule">Carolingian miniscule</option>
-            <option id="gothic-script">Gothic script</option>
-            <option id="palmer-method">Palmer method</option>
-            <option id="roman-cursive">Roman cursive</option>
-            <option id="rustic-capitals">rustic capitals</option>
-            <option id="spencerian-method">Spencerian method</option>
-            <option id="square-capitals">square capitals</option>
+            <option id="carolingian_miniscule">Carolingian miniscule</option>
+            <option id="gothic_script">Gothic script</option>
+            <option id="palmer_method">Palmer method</option>
+            <option id="roman_cursive">Roman cursive</option>
+            <option id="rustic_capitals">rustic capitals</option>
+            <option id="spencerian_method">Spencerian method</option>
+            <option id="square_capitals">square capitals</option>
         </options>
     </instance>
 
@@ -1482,10 +1482,10 @@
         <options>
             <option id="brand">brand</option>
             <option id="decoration">decoration</option>
-            <option id="estate-stamp">estate stamp</option>
+            <option id="estate_stamp">estate stamp</option>
             <option id="graffiti">graffiti</option>
             <option id="label">label</option>
-            <option id="maker's-mark">maker's mark</option>
+            <option id="maker's_mark">maker's mark</option>
         </options>
     </instance>
 
@@ -1518,10 +1518,10 @@
         <options>
             <option id="brand">brand</option>
             <option id="decoration">decoration</option>
-            <option id="estate-stamp">estate stamp</option>
+            <option id="estate_stamp">estate stamp</option>
             <option id="graffiti">graffiti</option>
             <option id="label">label</option>
-            <option id="maker's-mark">maker's mark</option>
+            <option id="makers_mark">maker's mark</option>
         </options>
     </instance>
 
@@ -1681,9 +1681,9 @@
         <title-ref>exhibitionobjectconstreatment</title-ref>
         <title>Exhibition Object Cons Treatment</title>
         <options>
-            <option id="Needed">Needed</option>
-            <option id="Not needed">Not needed</option>
-            <option id="Done">Done</option>
+            <option id="needed">Needed</option>
+            <option id="not_needed">Not needed</option>
+            <option id="done">Done</option>
         </options>
     </instance>
 
@@ -1693,9 +1693,9 @@
         <title-ref>exhibitionobjectmount</title-ref>
         <title>Exhibition Object Mount</title>
         <options>
-            <option id="Needed">Needed</option>
-            <option id="Not needed">Not needed</option>
-            <option id="Done">Done</option>
+            <option id="needed">Needed</option>
+            <option id="not_needed">Not needed</option>
+            <option id="done">Done</option>
         </options>
     </instance>
 
@@ -1749,9 +1749,9 @@
         <title-ref>valuetype</title-ref>
         <title>Value Type</title>
         <options>
-            <option id="Current Value">Current Value</option>
-            <option id="Original Value">Original Value</option>
-            <option id="Replacement Value">Replacement Value</option>
+            <option id="Current_Value">Current Value</option>
+            <option id="Original_Value">Original Value</option>
+            <option id="Replacement_Value">Replacement Value</option>
         </options>
     </instance>
 
@@ -1764,7 +1764,7 @@
             <option id="daily">Daily</option>
             <option id="weekly">Weekly</option>
             <option id="monthly">Monthly</option>
-            <option id="semi-annually">Semi-annually</option>
+            <option id="semi_annually">Semi-annually</option>
             <option id="annually">Annually</option>
         </options>
     </instance>
@@ -1777,7 +1777,7 @@
         <options>
             <option id="conservation">Conservation</option>
             <option id="preservation">Preservation</option>
-            <option id="re-housing">Re-housing</option>
+            <option id="re_housing">Re-housing</option>
         </options>
     </instance>
 
@@ -1853,7 +1853,7 @@
         <title>Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1870,7 +1870,7 @@
         <title>Citation Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1886,7 +1886,7 @@
         <title>Material Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1902,7 +1902,7 @@
         <title>Location Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1918,7 +1918,7 @@
         <title>Concept Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1934,7 +1934,7 @@
         <title>Place Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1950,7 +1950,7 @@
         <title>Organization Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1966,7 +1966,7 @@
         <title>Other Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1982,7 +1982,7 @@
         <title>Taxon Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -1998,7 +1998,7 @@
         <title>Person Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -2014,7 +2014,7 @@
         <title>Work Term Status</title>
         <options>
             <option id="provisional" default="yes">Provisional</option>
-            <option id="under review">Under Review</option>
+            <option id="under_review">Under Review</option>
             <option id="accepted">Accepted</option>
             <option id="rejected">Rejected</option>
             <option id="quickaddedneedsattention">Quick Added, needs attention</option>
@@ -2030,15 +2030,15 @@
         <title>Place Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2049,15 +2049,15 @@
         <title>Taxon Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2068,15 +2068,15 @@
         <title>Organization Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2087,15 +2087,15 @@
         <title>Person Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2106,15 +2106,15 @@
         <title>Work Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2125,15 +2125,15 @@
         <title>Location Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2144,15 +2144,15 @@
         <title>Concept Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2163,15 +2163,15 @@
         <title>Material Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2182,15 +2182,15 @@
         <title>Term Type</title>
         <options>
             <option id="descriptor">Descriptor</option>
-            <option id="alternate descriptor">Alternate Descriptor</option>
-            <option id="used for term">Used for Term</option>
+            <option id="alternate_descriptor">Alternate Descriptor</option>
+            <option id="used_for_term">Used for Term</option>
             <option id="common">Common name</option>
-            <option id="technical-scientific">Technical or scientific name</option>
+            <option id="technical_scientific">Technical or scientific name</option>
             <option id="native">Native name</option>
-            <option id="non-native">Non-native name</option>
+            <option id="non_native">Non-native name</option>
             <option id="local">Local name</option>
             <option id="descriptive">Descriptive name</option>
-            <option id="spelling-variant">Spelling variant</option>
+            <option id="spelling_variant">Spelling variant</option>
         </options>
     </instance>
 
@@ -2630,39 +2630,39 @@
         national-division (in TGN as division-national), state-province and water-body (in TGN as "body of water").
         Users can easily configure the values as they wish. -->
         <options>
-            <option id="autonomous-region">Autonomous region</option>
+            <option id="autonomous_region">Autonomous region</option>
             <option id="borough">Borough</option>
             <option id="city">City</option>
-            <option id="collection-site">Collection site</option>
+            <option id="collection_site">Collection site</option>
             <option id="continent">Continent</option>
             <option id="country">Country</option>
-            <option id="country-code">Country code</option>
+            <option id="country_code">Country code</option>
             <option id="county">County</option>
-            <option id="dependent-state">Dependent state</option>
-            <option id="deserted-settlement">Deserted settlement</option>
-            <option id="district-national">District (national)</option>
-            <option id="general-region">General region</option>
+            <option id="dependent_state">Dependent state</option>
+            <option id="deserted_settlement">Deserted settlement</option>
+            <option id="district_national">District (national)</option>
+            <option id="general_region">General region</option>
             <option id="governorate">Governorate</option>
-            <option id="inhabited-place">Inhabited place</option>
+            <option id="inhabited_place">Inhabited place</option>
             <option id="island">Island</option>
-            <option id="island-group">Island group</option>
+            <option id="island_group">Island group</option>
             <option id="locality">Locality</option>
-            <option id="metropolitan-area">Metropolitan area</option>
+            <option id="metropolitan_area">Metropolitan area</option>
             <option id="municipality">Municipality</option>
             <option id="nation">Nation</option>
-            <option id="national-division">National division</option>
+            <option id="national_division">National division</option>
             <option id="neighborhood">Neighborhood</option>
-            <option id="occupied-territory">Occupied territory</option>
+            <option id="occupied_territory">Occupied territory</option>
             <option id="prefecture">Prefecture</option>
             <option id="province">Province</option>
             <option id="region">Region</option>
             <option id="state">State</option>
-            <option id="state-province">State province</option>
+            <option id="state_province">State province</option>
             <option id="territory">Territory</option>
-            <option id="union-territory">Union territory</option>
-            <option id="unitary-authority">Unitary authority</option>
-            <option id="urban-prefecture">Urban prefecture</option>
-            <option id="water-body">Water body</option>
+            <option id="union_territory">Union territory</option>
+            <option id="unitary_authority">Unitary authority</option>
+            <option id="urban_prefecture">Urban prefecture</option>
+            <option id="water_body">Water body</option>
         </options>
     </instance>
 
@@ -2672,9 +2672,9 @@
         <title-ref>vcoordsystem</title-ref>
         <title>vCoordinate System</title>
         <options>
-            <option id="altitude-depth">Altitude depth</option>
-            <option id="latitude-longitude">Latitude and longitude</option>
-            <option id="national-grid-reference">National Grid reference</option>
+            <option id="altitude_depth">Altitude depth</option>
+            <option id="latitude_longitude">Latitude and longitude</option>
+            <option id="national_grid_reference">National Grid reference</option>
             <option id="utm">Universal Transverse Mercator (UTM)</option>
             <!-- The following suggestions come from http://code.google.com/p/darwincore/wiki/Location#Verbatim_Coordinate_Terms;
             Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#verbatimCoordinateSystem -->
@@ -2693,9 +2693,9 @@
         <!-- See http://code.google.com/p/darwincore/wiki/Location#verbatimSRS;
         Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#verbatimSRS -->
         <options>
-            <option id="epsg4326-wgs84">EPSG:4326-WGS84</option>
-            <option id="epsg4269-nad83">EPSG:4269-NAD83</option>
-            <option id="epsg4267-nad27">EPSG:4267-NAD27</option>
+            <option id="epsg4326_wgs84">EPSG:4326-WGS84</option>
+            <option id="epsg4269_nad83">EPSG:4269-NAD83</option>
+            <option id="epsg4267_nad27">EPSG:4267-NAD27</option>
             <option id="unknown">Unknown</option>
         </options>
     </instance>
@@ -2716,9 +2716,9 @@
             <option id="meters">meters</option>
             <option id="miles">miles</option>
             <option id="millimeters">millimeters</option>
-            <option id="square-feet">square feet</option>
-            <option id="square-meters">square meters</option>
-            <option id="square-yards">square yards</option>
+            <option id="square_feet">square feet</option>
+            <option id="square_meters">square meters</option>
+            <option id="square_yards">square yards</option>
             <option id="stories">stories</option>
         </options>
     </instance>
@@ -2731,9 +2731,9 @@
         <!-- See http://code.google.com/p/darwincore/wiki/Location#geodeticDatum;
         Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#geodeticDatum -->
         <options>
-            <option id="epsg4326-wgs84">EPSG:4326-WGS84</option>
-            <option id="epsg4269-nad83">EPSG:4269-NAD83</option>
-            <option id="epsg4267-nad27">EPSG:4267-NAD27</option>
+            <option id="epsg4326_wgs84">EPSG:4326-WGS84</option>
+            <option id="epsg4269_nad83">EPSG:4269-NAD83</option>
+            <option id="epsg4267_nad27">EPSG:4267-NAD27</option>
             <option id="unknown">Unknown</option>
         </options>
     </instance>
@@ -2746,13 +2746,13 @@
         <!-- See http://code.google.com/p/darwincore/wiki/Location#georeferenceProtocol;
         Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#georeferenceProtocol -->
         <options>
-            <option id="chapman-wieczorek-2006-guide-best-practices-georeferencing">Chapman,
+            <option id="chapman_wieczorek_2006_guide_best_practices_georeferencing">Chapman,
                 Wieczorek 2006, Guide to Best Practices for Georeferencing
             </option>
-            <option id="manis-herpnet-ornis-georeferencing-guidelines">MaNIS/HerpNet/ORNIS
+            <option id="manis_herpnet_ornis_georeferencing_guidelines">MaNIS/HerpNet/ORNIS
                 Georeferencing Guidelines
             </option>
-            <option id="georeferencing-dummies">Georeferencing For Dummies</option>
+            <option id="georeferencing_dummies">Georeferencing For Dummies</option>
             <option id="biogeomancer">BioGeomancer</option>
         </options>
     </instance>
@@ -2766,8 +2766,8 @@
         Quick reference: http://rs.tdwg.org/dwc/terms/index.htm#georeferenceVerificationStatus -->
         <options>
             <option id="unverified">Unverified</option>
-            <option id="verified-data-custodian">Verified by data custodian</option>
-            <option id="verified-contributor">Verified by contributor</option>
+            <option id="verified_data_custodian">Verified by data custodian</option>
+            <option id="verified_contributor">Verified by contributor</option>
         </options>
     </instance>
 
@@ -2821,7 +2821,7 @@
             <option id="valid">Valid</option>
             <option id="invalid">Invalid</option>
             <option id="accepted">Accepted</option>
-            <option id="misapplied name">Misapplied Name</option>
+            <option id="misapplied_name">Misapplied Name</option>
         </options>
     </instance>
 </instances>

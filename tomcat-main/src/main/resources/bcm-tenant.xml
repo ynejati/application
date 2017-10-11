@@ -9,7 +9,7 @@
 		<include src="base-schemas.xml"/>
 
 		<records>
-			<enum-blank> </enum-blank>
+			<enum-blank>Please select a value</enum-blank>
 
 			<include src="base-collectionobject.xml,bcm-collectionobject.xml" merge="xmlmerge.properties"/>
 			<include src="base-authority.xml"/>
@@ -51,8 +51,7 @@
 			<include src="base-authority-work.xml,bcm-authority-work.xml" merge="xmlmerge.properties"/>
 
 			<include src="base-vocabularies.xml"/>
-            <!-- This doesn't seem to work, renaming bcm-instance-vocabularies to base-instance-vocabularies instead -->
-			<!--<include src="base-instance-vocabularies.xml,bcm-instance-vocabularies.xml" merge="xmlmerge.properties"/>-->
+			<include src="base-instance-vocabularies.xml,bcm-instance-vocabularies.xml" merge="xmlmerge.properties"/>
 
 
 			<include src="base-authz-accountrole.xml"/>

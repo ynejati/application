@@ -3,29 +3,17 @@
         <repeat id="personTermGroupList/personTermGroup">
             <field id="termType" autocomplete="vocab-persontermtype" ui-type="enum">
                 <selector>personAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
                    mini="search,list,relate" autocomplete="vocab-persontermstatus" ui-type="enum">
                 <selector>personAuthority-termStatus</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <!-- Fields specific to Person terms -->
             <field id="salutation" autocomplete="vocab-salutation" ui-type="enum">
                 <selector>personAuthority-salutation</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="title" autocomplete="vocab-persontitle" ui-type="enum">
                 <selector>personAuthority-title</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
     </section>

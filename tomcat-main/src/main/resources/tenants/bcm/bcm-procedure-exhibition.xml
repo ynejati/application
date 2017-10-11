@@ -6,15 +6,9 @@
             <repeat id="exhibitionObjectGroupList/exhibitionObjectGroup">
 
                 <field id="exhibitionObjectConsTreatment" ui-search="repeatable" autocomplete="vocab-exhibitionobjectconstreatment" ui-type="enum">
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
 
                 <field id="exhibitionObjectMount" ui-search="repeatable" autocomplete="vocab-exhibitionobjectmount" ui-type="enum">
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
             </repeat>
         </section>

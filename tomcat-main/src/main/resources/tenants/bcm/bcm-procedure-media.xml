@@ -7,9 +7,6 @@
             <services-tag>typeList</services-tag>
             <field id="type" ui-search="repeatable" autocomplete="vocab-mediatypes"
                    ui-type="enum">>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
     </section>

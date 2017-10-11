@@ -3,18 +3,12 @@
         <repeat id="workTermGroupList/workTermGroup">
             <field id="termType" autocomplete="vocab-worktermtype" ui-type="enum">
                 <selector>workAuthority-termType</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="termStatus" ui-search="repeatable" seperate_ui_container="true"
                    mini="search,list,relate" autocomplete="vocab-worktermstatus" ui-type="enum">
                 <selector>workAuthority-termStatus</selector>
                 <options>
                     <option id="" default="yes">Please select a value</option>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </options>
             </field>
         </repeat>

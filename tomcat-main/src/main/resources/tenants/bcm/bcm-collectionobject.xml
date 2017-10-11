@@ -10,9 +10,6 @@
             <field id="numberType" in-tab="yes" seperate_ui_container="true"
                    autocomplete="vocab-collectionobjectnumbertype" ui-type="enum">
                 <selector>object-identification-other-number-type</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
@@ -21,34 +18,22 @@
             <field id="responsibleDepartment" ui-search="repeatable" mini="search,list"
                    seperate_ui_container="true" autocomplete="vocab-responsibledepartments" ui-type="enum">
                 <selector>object-identification-responsible-department</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
         <field id="collection" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-collection"
                ui-type="enum">
             <selector>object-identification-collection</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <field id="recordStatus" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-recordstatus"
                ui-type="enum">
             <selector>object-identification-record-status</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <repeat id="titleGroupList/titleGroup">
             <field id="titleType" seperate_ui_container="true" autocomplete="vocab-titletype" ui-type="enum">
                 <selector>object-identification-object-title-type</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
@@ -58,32 +43,20 @@
             <field id="objectNameCurrency" seperate_ui_container="true" autocomplete="vocab-objectnamecurrency"
                    ui-type="enum">
                 <selector>object-identification-object-currency</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
 
             <field id="objectNameLevel" seperate_ui_container="true" autocomplete="vocab-objectnamelevel"
                    ui-type="enum">
                 <selector>object-identification-object-level</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
 
             <field id="objectNameSystem" seperate_ui_container="true" autocomplete="vocab-objectnamesystem"
                    ui-type="enum">
                 <selector>object-identification-object-system</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
 
             <field id="objectNameType" seperate_ui_container="true" autocomplete="vocab-objectnametype" ui-type="enum">
                 <selector>object-identification-object-type</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
@@ -95,41 +68,26 @@
             <field id="objectStatus" ui-search="repeatable" seperate_ui_container="true"
                    autocomplete="vocab-objectstatus" ui-type="enum">
                 <selector>object-description-object-status</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
         <field id="sex" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-sex" ui-type="enum">
             <selector>object-description-sex</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <field id="phase" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-phase" ui-type="enum">
             <selector>object-description-phase</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <repeat id="forms">
             <field id="form" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-form"
                    ui-type="enum">
                 <selector>object-description-form</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
         <field id="ageUnit" seperate_ui_container="true" autocomplete="vocab-ageunit" ui-type="enum">
             <selector>object-description-age-unit</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <repeat id="objectComponentGroupList/objectComponentGroup">
@@ -137,9 +95,6 @@
             <field id="objectComponentName" ui-search="repeatable" seperate_ui_container="true"
                    autocomplete="vocab-objectcomponentname" ui-type="enum">
                 <selector>object-description-object-component-name</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
@@ -147,23 +102,14 @@
             <field id="technicalAttribute" ui-search="repeatable" seperate_ui_container="true"
                    autocomplete="vocab-technicalattribute" ui-type="enum">
                 <selector>object-description-technical-attribute</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="technicalAttributeMeasurement" seperate_ui_container="true"
                    autocomplete="vocab-technicalattributemeasurement" ui-type="enum">
                 <selector>object-description-technical-attribute-measurement</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
             <field id="technicalAttributeMeasurementUnit" seperate_ui_container="true"
                    autocomplete="vocab-technicalattributemeasurementunit" ui-type="enum">
                 <selector>object-description-technical-attribute-unit</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
@@ -172,9 +118,6 @@
                 <field id="contentPosition" seperate_ui_container="true" autocomplete="vocab-contentpositions"
                        ui-type="enum">
                     <selector>object-description-content-position</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
             </repeat>
 
@@ -182,18 +125,12 @@
                 <field id="contentObjectType" seperate_ui_container="true" autocomplete="vocab-contentobjecttype"
                        ui-type="enum">
                     <selector>object-description-content-object-type</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
             </repeat>
 
             <repeat id="contentScripts">
                 <field id="contentScript" seperate_ui_container="true" autocomplete="vocab-contentscript">
                     <selector>object-description-content-script</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
             </repeat>
         </section>
@@ -203,26 +140,17 @@
                 <field id="inscriptionContentPosition" seperate_ui_container="true"
                        autocomplete="vocab-inscriptioncontentposition" ui-type="enum">
                     <selector>object-description-inscription-content-position</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
 
                 <field id="inscriptionContentScript" seperate_ui_container="true"
                        autocomplete="vocab-inscriptioncontentscript" ui-type="enum">
                     <selector>object-description-inscription-content-script</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
 
                 <field id="inscriptionContentType" seperate_ui_container="true"
                        autocomplete="vocab-inscriptioncontenttype"
                        ui-type="enum">
                     <selector>object-description-inscription-content-type</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
             </repeat>
         </section>
@@ -234,17 +162,11 @@
                 <field id="inscriptionDescriptionPosition" seperate_ui_container="true"
                        autocomplete="vocab-inscriptiondescriptionposition" ui-type="enum">
                     <selector>object-description-inscription-description-position</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
 
                 <field id="inscriptionDescriptionType" seperate_ui_container="true"
                        autocomplete="vocab-inscriptiondescriptiontype" ui-type="enum">
                     <selector>object-description-inscription-description-type</selector>
-                    <enum>
-                        <blank-value>Please select a value</blank-value>
-                    </enum>
                 </field>
             </repeat>
         </section>
@@ -252,24 +174,15 @@
 
     <field id="ownershipAccess" seperate_ui_container="true" autocomplete="vocab-ownershipaccess" ui-type="enum">
         <selector>object-history-association-access</selector>
-        <enum>
-            <blank-value>Please select a value</blank-value>
-        </enum>
     </field>
 
     <field id="ownershipCategory" seperate_ui_container="true" autocomplete="vocab-ownershipcategory" ui-type="enum">
         <selector>object-history-association-category</selector>
-        <enum>
-            <blank-value>Please select a value</blank-value>
-        </enum>
     </field>
 
     <field id="ownershipExchangeMethod" seperate_ui_container="true" autocomplete="vocab-ownershipexchangemethod"
            ui-type="enum">
         <selector>object-history-association-exchange-method</selector>
-        <enum>
-            <blank-value>Please select a value</blank-value>
-        </enum>
     </field>
 
 </record>

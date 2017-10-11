@@ -4,9 +4,6 @@
     <section id="groupInformation">
         <field id="responsibleDepartment" seperate_ui_container="true" autocomplete="vocab-responsibledepartments" ui-type="enum">
             <selector>group-responsibleDepartment</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
 

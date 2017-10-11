@@ -5,9 +5,6 @@
 
         <field id="acquisitionMethod" ui-search="repeatable" seperate_ui_container="true" autocomplete="vocab-acquisitionmethod" ui-type="enum">
             <selector>acquisition-acquisition-method</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
     </section>
 

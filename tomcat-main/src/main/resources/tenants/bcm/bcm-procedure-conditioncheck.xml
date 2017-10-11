@@ -7,17 +7,11 @@
     <section id="objectConditionInformation">
         <field id="objectAuditCategory" ui-search="repeatable" autocomplete="vocab-objectauditcategory" ui-type="enum">
             <selector>conditioncheck-objectAuditCategory</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <repeat id="completenessGroupList/completenessGroup">
             <field id="completeness" ui-search="repeatable" autocomplete="vocab-completeness" ui-type="enum">
                 <selector>conditioncheck-completeness</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
 
@@ -25,25 +19,16 @@
             <field id="condition" ui-search="repeatable" seperate_ui_container="true" mini="summary,search,list,relate"
                    autocomplete="vocab-condition" ui-type="enum">
                 <selector>conditioncheck-condition</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
         <field id="conservationTreatmentPriority" ui-search="repeatable" seperate_ui_container="true"
                autocomplete="vocab-conservationtreatmentpriority" ui-type="enum">
             <selector>conditioncheck-conservationTreatmentPriority</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <repeat id="hazardGroupList/hazardGroup">
             <field id="hazard" ui-search="repeatable" autocomplete="vocab-hazard" ui-type="enum">
                 <selector>conditioncheck-hazard</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
     </section>
@@ -52,17 +37,11 @@
         <field id="conditionCheckMethod" ui-search="repeatable" autocomplete="vocab-conditioncheckmethod"
                ui-type="enum">
             <selector>conditioncheck-conditionCheckMethod</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
         <field id="conditionCheckReason" ui-search="repeatable" autocomplete="vocab-conditioncheckreason"
                ui-type="enum">
             <selector>conditioncheck-conditionCheckReason</selector>
-            <enum>
-                <blank-value>Please select a value</blank-value>
-            </enum>
         </field>
 
     </section>
@@ -71,9 +50,6 @@
             <field id="salvagePriorityCode" ui-search="repeatable" autocomplete="vocab-salvageprioritycode"
                    ui-type="enum">
                 <selector>conditioncheck-salvagePriorityCode</selector>
-                <enum>
-                    <blank-value>Please select a value</blank-value>
-                </enum>
             </field>
         </repeat>
     </section>

@@ -20,15 +20,15 @@
         <title>Responsible Departments</title>
         <options>
             <option id="antiquities">Antiquities</option>
-            <option id="architecture-design">Architecture and Design</option>
-            <option id="decorative-arts">Decorative Arts</option>
+            <option id="architecture_design">Architecture and Design</option>
+            <option id="decorative_arts">Decorative Arts</option>
             <option id="ethnography">Ethnography</option>
             <option id="herpetology">Herpetology</option>
-            <option id="media-performance-art">Media and Performance Art</option>
-            <option id="paintings-sculpture">Paintings and Sculpture</option>
+            <option id="media_performance_art">Media and Performance Art</option>
+            <option id="paintings_sculpture">Paintings and Sculpture</option>
             <option id="paleobotany">Paleobotany</option>
             <option id="photographs">Photographs</option>
-            <option id="prints-drawings">Prints and Drawings</option>
+            <option id="prints_drawings">Prints and Drawings</option>
         </options>
     </instance>
 
@@ -40,10 +40,10 @@
         <title-ref>collection</title-ref>
         <title>Collection</title>
         <options>
-            <option id="library-collection">Library collection</option>
-            <option id="permanent-collection">Permanent collection</option>
-            <option id="study-collection">Study collection</option>
-            <option id="teaching-collection">Teaching collection</option>
+            <option id="library_collection">Library collection</option>
+            <option id="permanent_collection">Permanent collection</option>
+            <option id="study_collection">Study collection</option>
+            <option id="teaching_collection">Teaching collection</option>
         </options>
     </instance>
 
@@ -54,11 +54,24 @@
         <title>Record Status</title>
         <options>
             <option id="approved">Approved</option>
-            <option id="in-process">In process</option>
+            <option id="in_process">In process</option>
             <option id="new" default="yes">New</option>
             <option id="temporary">Temporary</option>
         </options>
     </instance>
+
+    <instance id="vocab-recordstatus">
+        <web-url>recordstatus</web-url>
+        <title-ref>recordstatus</title-ref>
+        <title>Record Status</title>
+        <options>
+            <option id="approved">Approved</option>
+            <option id="inprocess">In process</option>
+            <option id="new" default="yes">New</option>
+            <option id="temporary">Temporary</option>
+        </options>
+    </instance>
+
 
     <!--Title Type-->
     <instance id="vocab-titletype">
@@ -66,7 +79,7 @@
         <title-ref>titletype</title-ref>
         <title>Title Type</title>
         <options>
-            <option id="assigned-by-artist">Assigned by Artist</option>
+            <option id="assigned_by_artist">Assigned by Artist</option>
             <option id="collection">Collection</option>
             <option id="generic">Generic</option>
             <option id="popular">Popular</option>
@@ -103,7 +116,7 @@
         <title-ref>objectnamesystem</title-ref>
         <title>Object Name System</title>
         <options>
-            <option id="art-and-architecture-thesaurus">Art &amp; Architecture Thesaurus</option>
+            <option id="art_and_architecture_thesaurus">Art &amp; Architecture Thesaurus</option>
             <option id="nomenclature">Nomenclature</option>
         </options>
     </instance>
@@ -170,7 +183,7 @@
         <options>
             <option id="dry">dry</option>
             <option id="pinned">pinned</option>
-            <option id="thin-section">thin section</option>
+            <option id="thin_section">thin section</option>
             <option id="wet">wet</option>
         </options>
     </instance>

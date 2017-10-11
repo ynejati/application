@@ -1,9 +1,5 @@
 <record id="collection-object" is-extension="true">
 
-    <services-record-path id="bcm">
-        collectionobjects_bcm:http://collectionspace.org/services/collectionobject/local/bcm,collectionobjects_bcm
-    </services-record-path>
-
     <section id="identificationInformation">
         <repeat id="otherNumberList/otherNumber">
             <selector>object-identification-otherNumbers</selector>

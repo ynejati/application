@@ -1,9 +1,5 @@
 <record id="valuationcontrol" is-extension="true" type="record,procedure">
 
-    <services-record-path id="bcm">
-        valuationcontrols_bcm:http://collectionspace.org/services/valuationcontrol/local/bcm,valuationcontrols_bcm
-    </services-record-path>
-
     <section id="objectValuationInformation">
         <field id="valueType" ui-search="repeatable" in-title="yes" mini="summary,search,list,relate"
                autocomplete="vocab-valuetype" ui-type="enum">

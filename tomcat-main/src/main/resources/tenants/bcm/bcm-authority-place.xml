@@ -9,7 +9,7 @@
         </field>
         <field id="vSpatialReferenceSystem" ui-type="enum" autocomplete="vocab-vspatialreferencesystem">
         </field>
-        <field id="vUnitofMeasure" ui-type="enum" autocomplete="vunitofmeasure">
+        <field id="vUnitofMeasure" ui-type="enum" autocomplete="vocab-vunitofmeasure">
         </field>
     </section>
     <section id="geoReferenceInformation">

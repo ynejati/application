@@ -1,7 +1,4 @@
 <record id="objectexit" is-extension="true" type="record,procedure">
-    <services-record-path id="bcm">
-        objectexit_bcm:http://collectionspace.org/services/objectexit/local/bcm,objectexit_bcm
-    </services-record-path>
 
     <!--  Object Exit Information Group -->
     <section id="objectexitInformation">

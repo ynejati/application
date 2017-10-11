@@ -1,5 +1,4 @@
 <record id="exhibition" is-extension="true" type="record,procedure">
-    <services-record-path id="bcm">exhibitions_bcm:http://collectionspace.org/services/exhibition/local/bcm,exhibitions_bcm</services-record-path>
 
     <section id="exhibitionInformation">
         <section id="exhibitionObjectInformation">
